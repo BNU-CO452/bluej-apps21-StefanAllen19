@@ -39,7 +39,7 @@ public class Module
         return code;
     }    
     
-    public String getitle()
+    public String getTitle()
     {
         return title;
     }  
