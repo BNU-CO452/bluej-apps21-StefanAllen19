@@ -3,8 +3,8 @@ import java.util.ArrayList;
  * This class stores information about a course
  * that enrolled students may want to complete
  *
- * @author Derek Peacock and Nicholas Day
- * @version 0.1 11/Sep/2020
+ * @author Stefan Allen
+ * @version 19/10/2021
  */
 public class Course
 {
@@ -19,7 +19,7 @@ public class Course
      
     public Course()
     {
-        this("G400", "BSc Computing");
+        this("BT1SFT1", "BSc Software Engineering");
     }
     
     /**
