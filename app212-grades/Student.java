@@ -67,7 +67,14 @@ public class Student
      */
     public void awardTestMarks()
     {
-        
+        int value = 75;
+        for(Module module : course.modules)
+        {
+            ModuleMark mark = new ModuleMark(module);
+            mark.setMark(value);
+            value = value - 10;
+            marks.add(mark);
+        }
     }
     
     /**
@@ -104,7 +111,11 @@ public class Student
     
     private void printModules()
     {
-
+        for (ModuleMark mark: marks)
+        {
+            mark.print();
+            System.out.println("\t" + course.convertToGrade(mark.getValue()));
+        }
     }
     
     public void printTranscript()
@@ -122,6 +133,7 @@ public class Student
         System.out.println(" Code \t Module \t\tCredit\t Mark \t Grade");
         System.out.println(" ---- \t -------------------- \t ------\t ---- \t -----");
         
+        printModules();
        
         Grades finalGrade = course.calculateGrade(marks);
         
