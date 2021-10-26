@@ -50,7 +50,7 @@ public class Course
         addModule(co452);
         addModule(co450);
         addModule(co456);
-        addModule(co454);
+        addModule(co454); 
     }
     
     public void addModule(Module module)
