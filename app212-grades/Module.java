@@ -10,7 +10,6 @@ public class Module
 {
     // Most modules are worth 15 credits
     public static final int CREDIT = 15;
-    
     private String code;
     private String title;
 
@@ -24,12 +23,10 @@ public class Module
         this.title = title;
     }
 
-   
     public String getCode()
     {
         return code;
     }
-    
     
     public String getTitle()
     {

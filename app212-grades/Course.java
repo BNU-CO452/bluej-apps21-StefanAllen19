@@ -9,12 +9,9 @@ import java.util.ArrayList;
 public class Course
 {
     public final static int MAXN_MODULES = 4;
-    
     public ArrayList<Module> modules;
-    
     private String code;
     private String title;
-    
     private Grades finalGrade;
      
     public Course()

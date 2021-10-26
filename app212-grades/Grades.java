@@ -16,7 +16,7 @@ public enum Grades
     A  (100);
     
     private final int value;
-    
+
     private Grades(int value)
     {
         this.value = value;
