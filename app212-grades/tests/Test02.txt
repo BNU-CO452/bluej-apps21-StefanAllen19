@@ -1,3 +1,6 @@
+Student stefan = new Student();
+Course SoftwareEng = new Course();
+stefan.enrol(SoftwareEng);
 stefan.printTranscript();
  ------------------------------------
  App21-02: Exam Board Transcript 2021
