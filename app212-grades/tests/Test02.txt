@@ -1,6 +1,6 @@
 Student stefan = new Student();
-Course SoftwareEng = new Course();
-stefan.enrol(SoftwareEng);
+Course softEng = new Course();
+stefan.enrol(softEng);
 stefan.printTranscript();
  ------------------------------------
  App21-02: Exam Board Transcript 2021
@@ -10,22 +10,22 @@ stefan.printTranscript();
 
  Course BT1SFT1: BSc Software Engineering
 
- Co452: 	programming Conceptes	  15 credits
- Co450: 	Computer Architecture	  15 credits
- Co456: 	Web Development		  15 credits
- Co454: 	Digi Tech		  15 credits
+ Co452: programming Conceptes	  15 credits
+ Co450: Computer Architecture	  15 credits
+ Co456: Web Development		  15 credits
+ Co454: Digi Tech		  15 credits
 
  ---- 	 -------------------- 	 ------	 ---- 	 -----
  Code 	 Module 		Credit	 Mark 	 Grade
  ---- 	 -------------------- 	 ------	 ---- 	 -----
 
- Co452: 	programming Conceptes	  15	75	A
+ Co452: programming Conceptes	  15	75	A
 
- Co450: 	Computer Architecture	  15	65	B
+ Co450: Computer Architecture	  15	65	B
 
- Co456: 	Web Development		  15	55	C
+ Co456: Web Development		  15	55	C
 
- Co454: 	Digi Tech		  15	45	D
+ Co454: Digi Tech		  15	45	D
 
 
  Final Course Grade = B
