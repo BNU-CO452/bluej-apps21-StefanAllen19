@@ -7,7 +7,7 @@ import java.util.*;
  * @version 19/10/2021
  * @version 2021-08-18
  */
-public class Student
+public class StudentStefan
 {
     // the student ID
     private int id;
@@ -18,11 +18,13 @@ public class Student
     // The marks awarded for the modules on the course
     private ArrayList<ModuleMark> marks;
     
+    private Random randomMark;
+    
     /**
      * This constructor creates a new student with a
      * fixed name and id. 
      */
-    public Student()
+    public StudentStefan()
     {
         this("Stefan", 22135474);
     }
@@ -30,11 +32,11 @@ public class Student
     /**
      * Create a new student with a given name and ID number.
      */
-    public Student(String name, int id)
+    public StudentStefan(String name, int id)
     {
         this.name = name;
         this.id = id;
-        
+        randomMark = new Random();
         marks = new ArrayList<ModuleMark>();
     }
 
@@ -67,12 +69,12 @@ public class Student
      */
     public void awardTestMarks()
     {
-        int value = 75;
+        int value = 45;
         for(Module module : course.modules)
         {
             ModuleMark mark = new ModuleMark(module);
-            mark.setMark(value);
-            value = value - 10;
+            mark.setMark(randomMark.nextInt(100));
+            //value = value - 10;
             marks.add(mark);
         }
     }

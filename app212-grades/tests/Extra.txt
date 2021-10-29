@@ -1,0 +1,91 @@
+StudentStefan stefan = new StudentStefan();
+StudentAK ak = new StudentAK();
+StudentMo mo = new StudentMo();
+Course softEng = new Course();
+stefan.enrol(softEng);
+stefan.printTranscript();
+ ------------------------------------
+ App21-02: Exam Board Transcript 2021
+        by Stefan Allen
+ ------------------------------------
+ Student ID: 22135474, Stefan
+
+ Course BT1SFT1: BSc Software Engineering
+
+ Co452: programming Conceptes	  15 credits
+ Co450: Computer Architecture	  15 credits
+ Co456: Web Development		  15 credits
+ Co454: Digi Tech		  15 credits
+
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+ Code 	 Module 		Credit	 Mark 	 Grade
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+
+ Co452: programming Conceptes	  15	76	A
+
+ Co450: Computer Architecture	  0	32	F
+
+ Co456: Web Development		  0	32	F
+
+ Co454: Digi Tech		  15	81	A
+
+
+ Final Course Grade = C
+ak.enrol(softEng);
+ak.printTranscript();
+ ------------------------------------
+ App21-02: Exam Board Transcript 2021
+        by Stefan Allen
+ ------------------------------------
+ Student ID: 24736478, mo
+
+ Course BT1SFT1: BSc Software Engineering
+
+ Co452: programming Conceptes	  15 credits
+ Co450: Computer Architecture	  15 credits
+ Co456: Web Development		  15 credits
+ Co454: Digi Tech		  15 credits
+
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+ Code 	 Module 		Credit	 Mark 	 Grade
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+
+ Co452: programming Conceptes	  15	97	A
+
+ Co450: Computer Architecture	  15	56	C
+
+ Co456: Web Development		  15	45	D
+
+ Co454: Digi Tech		  15	61	B
+
+
+ Final Course Grade = B
+mo.enrol(softEng);
+mo.printTranscript();
+ ------------------------------------
+ App21-02: Exam Board Transcript 2021
+        by Stefan Allen
+ ------------------------------------
+ Student ID: 23223456, mo
+
+ Course BT1SFT1: BSc Software Engineering
+
+ Co452: programming Conceptes	  15 credits
+ Co450: Computer Architecture	  15 credits
+ Co456: Web Development		  15 credits
+ Co454: Digi Tech		  15 credits
+
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+ Code 	 Module 		Credit	 Mark 	 Grade
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+
+ Co452: programming Conceptes	  0	20	F
+
+ Co450: Computer Architecture	  0	22	F
+
+ Co456: Web Development		  15	61	B
+
+ Co454: Digi Tech		  15	71	A
+
+
+ Final Course Grade = D
