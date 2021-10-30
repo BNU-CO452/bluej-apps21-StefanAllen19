@@ -14,7 +14,7 @@ public class StudentAK
     // the student's full name
     private String name;
     // The course the student is enrolled on
-    private Course course;
+    private CourseGameDesign course;
     // The marks awarded for the modules on the course
     private ArrayList<ModuleMark> marks;
     
@@ -26,7 +26,7 @@ public class StudentAK
      */
     public StudentAK()
     {
-        this("mo", 24736478);
+        this("ak", 24736478);
     }
     
     /**
@@ -57,7 +57,7 @@ public class StudentAK
     /**
      * Set the student's course
      */
-    public void enrol(Course course)
+    public void enrol(CourseGameDesign course)
     {
         this.course = course;
         awardTestMarks();

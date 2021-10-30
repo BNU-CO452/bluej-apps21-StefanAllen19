@@ -6,7 +6,7 @@ import java.util.ArrayList;
  * @author Stefan Allen
  * @version 19/10/2021
  */
-public class Course
+public class CourseSoftEng
 {
     public final static int MAXN_MODULES = 4;
     public ArrayList<Module> modules;
@@ -14,7 +14,7 @@ public class Course
     private String title;
     private Grades finalGrade;
      
-    public Course()
+    public CourseSoftEng()
     {
         this("BT1SFT1", "BSc Software Engineering");
     }
@@ -22,7 +22,7 @@ public class Course
     /**
      * Constructor for objects of class Course
      */
-    public Course(String code, String title)
+    public CourseSoftEng(String code, String title)
     {
         // initialise instance variables
         this.code = code;
