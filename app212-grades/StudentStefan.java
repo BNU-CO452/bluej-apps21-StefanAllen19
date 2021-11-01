@@ -94,8 +94,7 @@ public class StudentStefan
     {
         return id;
     }
-
-        
+ 
     /**
      * Print the student's name and ID number to the 
      * output terminal.
@@ -105,6 +104,10 @@ public class StudentStefan
         System.out.println(" Student ID: " + id + ", " + name);
     }
     
+    /**
+     * Prints out the value for the module 
+     * Uses the converters to the letter grade
+     */
     public void printCourse()
     {
         this.print();

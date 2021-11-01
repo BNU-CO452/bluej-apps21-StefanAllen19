@@ -59,7 +59,7 @@ public class CourseSoftEng
     }
     
     /**
-     * 
+     * This converts your total into grades
      */
     public Grades convertToGrade(int mark)
     {
