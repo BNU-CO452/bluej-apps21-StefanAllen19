@@ -7,14 +7,14 @@ import java.util.*;
  * @version 19/10/2021
  * @version 2021-08-18
  */
-public class StudentStefan
+public class Student
 {
     // the student ID
     private int id;
     // the student's full name
     private String name;
     // The course the student is enrolled on
-    private CourseSoftEng course;
+    private Course course;
     // The marks awarded for the modules on the course
     private ArrayList<ModuleMark> marks;
     
@@ -24,7 +24,7 @@ public class StudentStefan
      * This constructor creates a new student with a
      * fixed name and id. 
      */
-    public StudentStefan()
+    public Student()
     {
         this("Stefan", 22135474);
     }
@@ -32,7 +32,7 @@ public class StudentStefan
     /**
      * Create a new student with a given name and ID number.
      */
-    public StudentStefan(String name, int id)
+    public Student(String name, int id)
     {
         this.name = name;
         this.id = id;
@@ -57,7 +57,7 @@ public class StudentStefan
     /**
      * Set the student's course
      */
-    public void enrol(CourseSoftEng course)
+    public void enrol(Course course)
     {
         this.course = course;
         awardTestMarks();

@@ -6,7 +6,7 @@ import java.util.ArrayList;
  * @author Stefan Allen
  * @version 19/10/2021
  */
-public class CourseAI
+public class Course
 {
     public final static int MAXN_MODULES = 4;
     public ArrayList<Module> modules;
@@ -14,15 +14,15 @@ public class CourseAI
     private String title;
     private Grades finalGrade;
      
-    public CourseAI()
+    public Course()
     {
-        this("BB1ARI1", "BSc Artificial Intelligence");
+        this("BT1SFT1", "BSc Software Engineering");
     }
     
     /**
      * Constructor for objects of class Course
      */
-    public CourseAI(String code, String title)
+    public Course(String code, String title)
     {
         // initialise instance variables
         this.code = code;
@@ -42,11 +42,11 @@ public class CourseAI
     {
         Module co452 = new Module ("Co452", "programming Conceptes");
         Module co450 = new Module ("Co450", "Computer Architecture");
-        Module co457 = new Module ("Co457", "Intelligent Systems");
+        Module co456 = new Module ("Co456", "Web Development" + "\t");
         Module co454 = new Module ("Co454", "Digi Tech" + "\t");
         addModule(co452);
         addModule(co450);
-        addModule(co457);
+        addModule(co456);
         addModule(co454); 
     }
     
@@ -59,7 +59,7 @@ public class CourseAI
     }
     
     /**
-     * 
+     * This converts your total into grades
      */
     public Grades convertToGrade(int mark)
     {
