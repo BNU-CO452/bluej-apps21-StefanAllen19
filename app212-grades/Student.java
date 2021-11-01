@@ -20,6 +20,8 @@ public class Student
     // randomize final mark 
     private Random randomMark;
     
+    private ArrayList<Student> students;
+    
     /**
      * This constructor creates a new student with a
      * fixed name and id. 

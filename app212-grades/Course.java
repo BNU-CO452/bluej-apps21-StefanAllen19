@@ -13,7 +13,9 @@ public class Course
     private String code;
     private String title;
     private Grades finalGrade;
-     
+    public final static int MAXN_STUDENTS = 4;
+    public ArrayList<Student>students;
+    
     /**
      * course for students to enrol 
      */
@@ -31,6 +33,7 @@ public class Course
         this.code = code;
         this.title = title;
         modules  = new ArrayList<Module>();
+        students = new ArrayList<Student>();
         createModules();
     }
 
@@ -51,6 +54,18 @@ public class Course
         addModule(co454); 
     }
     
+    public void createStudent()
+    {
+        Student Stefan = new Student ("Stefan", 22135474);
+        Student AK = new Student ("AK", 22345667);
+        Student Mo = new Student ("Mo", 22449595 );
+        Student Arbaaz = new Student ("Arbaaz", 22348574 );
+        addStudent(Stefan);
+        addStudent(AK);
+        addStudent(Mo);
+        addStudent(Arbaaz); 
+    }
+    
      /**
      * For random marks 
      */
@@ -59,6 +74,14 @@ public class Course
         if(modules.size() < MAXN_MODULES)
         {
             modules.add(module);
+        }
+    }
+    
+    public void addStudent(Student student)
+    {
+        if(students.size() < MAXN_MODULES)
+        {
+            students.add(student);
         }
     }
     
@@ -120,6 +143,14 @@ public class Course
         {
             module.print();
             module.printCredit();
+        }
+    }
+    
+    public void printStudents()
+    {
+        for (Student student : students)
+        {
+            student.print();
         }
     }
 }
