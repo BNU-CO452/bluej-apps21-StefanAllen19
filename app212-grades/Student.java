@@ -17,7 +17,7 @@ public class Student
     private Course course;
     // The marks awarded for the modules on the course
     private ArrayList<ModuleMark> marks;
-    
+    // randomize final mark 
     private Random randomMark;
     
     /**
@@ -114,6 +114,9 @@ public class Student
         course.print();
     }
     
+    /**
+     * converts mark to the final grade  
+     */
     private void printModules()
     {
         for (ModuleMark mark: marks)

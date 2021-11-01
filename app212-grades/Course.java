@@ -14,6 +14,9 @@ public class Course
     private String title;
     private Grades finalGrade;
      
+    /**
+     * course for students to enrol 
+     */
     public Course()
     {
         this("BT1SFT1", "BSc Software Engineering");
@@ -27,9 +30,7 @@ public class Course
         // initialise instance variables
         this.code = code;
         this.title = title;
-        
         modules  = new ArrayList<Module>();
-        
         createModules();
     }
 
@@ -50,6 +51,9 @@ public class Course
         addModule(co454); 
     }
     
+     /**
+     * For random marks 
+     */
     public void addModule(Module module)
     {
         if(modules.size() < MAXN_MODULES)
