@@ -54,6 +54,11 @@ public class Course
         addModule(co454); 
     }
     
+    /**
+     * Create four students and add them to the
+     * students list for testing purposes.  These
+     * must be your four students.
+     */
     public void createStudent()
     {
         Student Stefan = new Student ("Stefan", 22135474);
@@ -67,7 +72,7 @@ public class Course
     }
     
      /**
-     * For random marks 
+     * For adding the 4 students  
      */
     public void addModule(Module module)
     {
@@ -77,6 +82,9 @@ public class Course
         }
     }
     
+     /**
+     * For adding the 4 students 
+     */
     public void addStudent(Student student)
     {
         if(students.size() < MAXN_MODULES)
@@ -146,6 +154,9 @@ public class Course
         }
     }
     
+    /**
+     * Print the course's four students
+     */
     public void printStudents()
     {
         for (Student student : students)

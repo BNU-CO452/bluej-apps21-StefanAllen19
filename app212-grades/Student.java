@@ -42,6 +42,9 @@ public class Student
         marks = new ArrayList<ModuleMark>();
     }
 
+    /**
+     * Add the student mark
+     */
     public void addMark(ModuleMark mark)
     {
         marks.add(mark);
@@ -128,6 +131,9 @@ public class Student
         }
     }
     
+    /**
+     * To print the transcript for testing stage 2  
+     */
     public void printTranscript()
     {
         System.out.println(" ------------------------------------");
