@@ -53,8 +53,24 @@ public class StockList
     public void buyProduct(int productID, int amount)
     {
         Product product = findProduct(productID);
-        product.increaseQuantity(amount);
-    }
+        if(product != null) 
+        {
+            if(product.getQuantity() > 1000)
+            {
+                product.increaseQuantity(amount);
+                System.out.println("Bought " + amount + " of " + product.getName());
+            }
+            else
+            {
+                System.out.println("Not enough shelf space for " + product.getName() 
+                                   + ". Please sell the existing stock ");
+            }
+        }
+        else
+        {
+            System.out.println("Couldn't find product");
+        }
+    }    
     
     /**
      * Find a product to match the product id,
@@ -73,7 +89,9 @@ public class StockList
     }
     
      /**
-     * A method to buy a single quantity of the product
+     * Sell one of the given product.
+     * Show the before and after status of the product.
+     * @param id The ID of the product being sold.
      */
     public void sellProduct(int productID)
     {
@@ -81,7 +99,7 @@ public class StockList
     }
     
     /**
-     * Sell one of the given product.
+     * Sell many of the given product.
      * Show the before and after status of the product.
      * @param id The ID of the product being sold.
      */
@@ -94,17 +112,17 @@ public class StockList
             if(product.getQuantity() > 0)
             {
                 product.decreaseQuantity(amount);
-                
-                // printout message
+                System.out.println("Sold " + amount + " of " + product.getName());
             }
             else
             {
-                // printout message
+                System.out.println("The product " + product.getName() + 
+                                    "is out of stock");
             }
         }
         else
         {
-            // printout message
+            System.out.println("Couldn't find product");
         }
     }    
 
