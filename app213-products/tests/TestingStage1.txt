@@ -1,0 +1,21 @@
+StockList CarDealer = new StockList();
+StockDemo stefanStockDemo = new StockDemo(CarDealer);
+Product GraphicCard = new Product(101, "Nvidia RTX 3070");
+GraphicCard.print();
+ ID 101: Nvidia RTX 3070 stock level: 0
+GraphicCard.decreaseQuantity(1);
+GraphicCard.print();
+ ID 101: Nvidia RTX 3070 stock level: 0
+GraphicCard.increaseQuantity(4);
+GraphicCard.print();
+ ID 101: Nvidia RTX 3070 stock level: 4
+GraphicCard.decreaseQuantity(2);
+GraphicCard.print();
+ ID 101: Nvidia RTX 3070 stock level: 2
+StockList CarDealer = new StockList();
+StockDemo stefanStockDemo = new StockDemo(CarDealer);
+Product GraphicCardRtx = new Product(102, "Nvidia RTX 3060 TI");
+GraphicCardRtx.print();
+ ID 102: Nvidia RTX 3060 TI stock level: 0
+GraphicCard.print();
+ ID 101: Nvidia RTX 3070 stock level: 2
