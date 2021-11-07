@@ -29,12 +29,6 @@ public class StockList
         stock.add(item);
     }
     
-    public void remove(int productID)
-    {
-        Product product = findProduct(productID); 
-        stock.remove(product);
-    }
-    
     /**
      * A method to buy a single quantity of the product
      */
@@ -53,24 +47,15 @@ public class StockList
     public void buyProduct(int productID, int amount)
     {
         Product product = findProduct(productID);
-        if(product != null) 
+        if(product != null)
         {
-            if(product.getQuantity() > 1000)
-            {
-                product.increaseQuantity(amount);
-                System.out.println("Bought " + amount + " of " + product.getName());
-            }
-            else
-            {
-                System.out.println("Not enough shelf space for " + product.getName() 
-                                   + ". Please sell the existing stock ");
-            }
+            product.increaseQuantity(amount);
         }
         else
         {
             System.out.println("Couldn't find product");
         }
-    }    
+    }   
     
     /**
      * Find a product to match the product id,
@@ -81,9 +66,7 @@ public class StockList
         for (Product product : stock)
         {
             if(product.getID() == productID)
-            {
                 return product;
-            }
         }
         return null;
     }
@@ -109,22 +92,23 @@ public class StockList
         
         if(product != null) 
         {
-            if(product.getQuantity() > 0)
+            if(product.getQuantity() > 0) 
             {
                 product.decreaseQuantity(amount);
-                System.out.println("Sold " + amount + " of " + product.getName());
+                System.out.println("Sold one of " + amount + " of " 
+                + product.getName());
             }
-            else
+            else if(product.getQuantity() == 0) 
             {
-                System.out.println("The product " + product.getName() + 
-                                    "is out of stock");
+                System.out.println("The product " + product.getName() 
+                + "is out of stock");
             }
         }
         else
         {
             System.out.println("Couldn't find product");
         }
-    }    
+    }
 
     
     /**
