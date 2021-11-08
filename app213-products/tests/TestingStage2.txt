@@ -1,0 +1,26 @@
+StockList CarDealer = new StockList();
+StockDemo stefanStockDemo = new StockDemo(CarDealer);
+stefanStockDemo.runDemo();
+
+ Stefan Allen's Stock List
+ ====================
+
+ ID 101: BMW M8 Grand Coupe stock level: 0
+ ID 102: Mercedes AMG GT Black Series stock level: 0
+
+
+ Stefan Allen's Stock List
+ ====================
+
+ ID 101: BMW M8 Grand Coupe stock level: 9
+ ID 102: Mercedes AMG GT Black Series stock level: 4
+
+Sold one of 5 of BMW M8 Grand Coupe
+Sold one of 2 of Mercedes AMG GT Black Series
+
+ Stefan Allen's Stock List
+ ====================
+
+ ID 101: BMW M8 Grand Coupe stock level: 4
+ ID 102: Mercedes AMG GT Black Series stock level: 2
+
