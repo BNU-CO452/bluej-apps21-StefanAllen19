@@ -10,16 +10,15 @@
 public class StockDemo
 {
     // The stock manager.
-    public StockList stock;
-    private int amount;
+    private StockList stock;
 
     /**
      * Create a StockManager and populate it with at least
      * 10 sample products.
      */
-    public StockDemo(StockList stock)
+    public StockDemo()
     {
-        this.stock = stock;
+        this.stock = new StockList();
         
         // Add at least 10 products, they must be unique to you
         // Make sure the ids are sequential numbers
@@ -34,6 +33,8 @@ public class StockDemo
         stock.add(new Product(108, "Lamborghini hurrican performante"));
         stock.add(new Product(109, "BMW M5 Competition"));
         stock.add(new Product(110, "Brabus Rocket 900"));
+        
+        runDemo();
     }
     
     /**
@@ -67,7 +68,7 @@ public class StockDemo
         stock.buyProduct(107, 2);
         stock.buyProduct(108, 9);
         stock.buyProduct(109, 8);
-        stock.buyProduct(110, 3);
+        stock.buyProduct(110, 1);
     }
 
     private void sellProducts()

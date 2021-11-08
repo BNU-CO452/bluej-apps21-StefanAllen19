@@ -47,13 +47,25 @@ public class StockList
     public void buyProduct(int productID, int amount)
     {
         Product product = findProduct(productID);
-        if(product != null)
+        if(product != null) 
         {
-            product.increaseQuantity(amount);
+            if(product.getQuantity() < 10) 
+            {
+                product.increaseQuantity(amount);
+                System.out.println("Brought " + amount + " of " + product.getName());
+                // printout message
+            }
+            else if(product.getQuantity() == 0) 
+            {
+                System.out.println("Not enough space for " + product.getName() 
+                                    + ". Please sell the existing stock");
+                // printout message
+            }
         }
         else
         {
             System.out.println("Couldn't find product");
+            // printout message
         }
     }   
     
@@ -92,21 +104,29 @@ public class StockList
         
         if(product != null) 
         {
-            if(product.getQuantity() > 0) 
+            if(product.getQuantity() > 0 && product.getQuantity() > amount) 
             {
                 product.decreaseQuantity(amount);
-                System.out.println("Sold one of " + amount + " of " 
-                + product.getName());
+                System.out.println("Sold " + amount + " of " + product.getName());
+                // printout message
             }
             else if(product.getQuantity() == 0) 
             {
-                System.out.println("The product " + product.getName() 
-                + "is out of stock");
+                System.out.println("Restock the " + product.getName() + 
+                                    " is out of stock");
+                // printout message
+            }
+            else 
+            {
+                System.out.println("Can't sell " + amount + " of " + product.getName() + 
+                                    " becuase only have " + product.getQuantity());
+                // printout message
             }
         }
         else
         {
             System.out.println("Couldn't find product");
+            // printout message
         }
     }
 
