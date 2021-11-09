@@ -25,7 +25,15 @@ public class StockDemo
         
         stock.add(new Product(101, "RTX 3060"));
         stock.add(new Product(102, "RTX 3060 TI"));
-        
+        stock.add(new Product(103, "RTX 3070"));
+        stock.add(new Product(104, "RTX 3070 TI"));
+        stock.add(new Product(105, "RTX 3080"));
+        stock.add(new Product(106, "RTX 3080 TI"));
+        stock.add(new Product(107, "RTX 3090"));
+        stock.add(new Product(108, "RTX 3090 TI"));
+        stock.add(new Product(109, "RTX 6000"));
+        stock.add(new Product(110, "RTX 8000"));
+
         runDemo();
     }
     
@@ -40,19 +48,41 @@ public class StockDemo
     {
         // Show details of all of the products before delivery.
         
-        stock.print();      
+        stock.print();
+        
+        buyProducts();
+        stock.print();        
+
+        sellProducts();
+        stock.print(); 
     }
     
     private void buyProducts()
     {
         stock.buyProduct(101, 9);
         stock.buyProduct(102, 4);
+        stock.buyProduct(103, 9);
+        stock.buyProduct(104, 3);
+        stock.buyProduct(105, 7);
+        stock.buyProduct(106, 5);
+        stock.buyProduct(107, 2);
+        stock.buyProduct(108, 9);
+        stock.buyProduct(109, 8);
+        stock.buyProduct(110, 4);
     }
 
     private void sellProducts()
     {
         stock.sellProduct(101, 5);
         stock.sellProduct(102, 2);
+        stock.sellProduct(103, 4);
+        stock.sellProduct(104, 1);
+        stock.sellProduct(105, 5);
+        stock.sellProduct(106, 4);
+        stock.sellProduct(107, 1);
+        stock.sellProduct(108, 6);
+        stock.sellProduct(109, 4);
+        stock.sellProduct(110, 2);
     }    
     
 }
