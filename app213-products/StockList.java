@@ -38,15 +38,19 @@ public class StockList
     }
     
      
-    public void removeProduct (int productID)
+     public void remove(int productID)
     {
-      for (Product product : stock)
-      {
-          if(product.getID() == productID)
-      }
-      stock.remove(product);
-    }
-    }
+        Product product = findProduct(productID);
+        if(product != null)
+        {
+            stock.remove(product);  
+           System.out.println("Product Removed " + product.getName());
+        }
+        else
+        {
+            System.out.println("ID doesn't exist ");
+        }
+     }
    
     /**
      * Buy a quantity of a particular product.
