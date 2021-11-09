@@ -37,7 +37,17 @@ public class StockList
         buyProduct(productID, 1);
     }
     
-    
+     
+    public void removeProduct (int productID)
+    {
+      for (Product product : stock)
+      {
+          if(product.getID() == productID)
+      }
+      stock.remove(product);
+    }
+    }
+   
     /**
      * Buy a quantity of a particular product.
      * Increase the quantity of the product by the given amount.
@@ -92,7 +102,7 @@ public class StockList
     {
         sellProduct(productID, 1);
     }
-    
+   
     /**
      * Sell many of the given product.
      * Show the before and after status of the product.

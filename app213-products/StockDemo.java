@@ -16,9 +16,9 @@ public class StockDemo
      * Create a StockManager and populate it with at least
      * 10 sample products.
      */
-    public StockDemo()
+     public StockDemo(StockList stock)
     {
-        this.stock = new StockList();
+        this.stock = stock;
         
         // Add at least 10 products, they must be unique to you
         // Make sure the ids are sequential numbers
@@ -33,8 +33,6 @@ public class StockDemo
         stock.add(new Product(108, "RTX 3090 TI"));
         stock.add(new Product(109, "RTX 6000"));
         stock.add(new Product(110, "RTX 8000"));
-
-        runDemo();
     }
     
     /**
