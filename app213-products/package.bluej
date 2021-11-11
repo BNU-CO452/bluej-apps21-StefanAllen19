@@ -1,20 +1,28 @@
 #BlueJ package file
-dependency1.from=StockList
-dependency1.to=Product
+dependency1.from=StockDemo
+dependency1.to=StockList
 dependency1.type=UsesDependency
 dependency2.from=StockDemo
-dependency2.to=StockList
+dependency2.to=Product
 dependency2.type=UsesDependency
-dependency3.from=StockDemo
+dependency3.from=StockList
 dependency3.to=Product
 dependency3.type=UsesDependency
+<<<<<<< HEAD
 editor.fx.0.height=1087
 editor.fx.0.width=974
 editor.fx.0.x=953
 editor.fx.0.y=0
+=======
+editor.fx.0.height=1047
+editor.fx.0.width=974
+editor.fx.0.x=607
+editor.fx.0.y=195
+>>>>>>> 835ab92d60100dfb06185b345b08635ecb651dd2
 objectbench.height=143
 objectbench.width=703
 package.divider.horizontal=0.6
+<<<<<<< HEAD
 package.divider.vertical=0.7607655502392344
 package.editor.height=470
 package.editor.width=613
@@ -22,14 +30,23 @@ package.editor.x=971
 package.editor.y=159
 package.frame.height=727
 package.frame.width=743
+=======
+package.divider.vertical=0.8251748251748252
+package.editor.height=701
+package.editor.width=679
+package.editor.x=953
+package.editor.y=0
+package.frame.height=958
+package.frame.width=809
+>>>>>>> 835ab92d60100dfb06185b345b08635ecb651dd2
 package.numDependencies=3
 package.numTargets=4
 package.showExtends=true
 package.showUses=true
 project.charset=UTF-8
-readme.height=60
+readme.height=58
 readme.name=@README
-readme.width=49
+readme.width=47
 readme.x=10
 readme.y=10
 target1.height=82

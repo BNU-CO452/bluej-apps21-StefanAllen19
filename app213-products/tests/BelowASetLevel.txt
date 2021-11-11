@@ -1,0 +1,84 @@
+StockList stockLis1 = new StockList();
+StockDemo stockDem1 = new StockDemo(stockLis1);
+stockDem1.runDemo();
+
+ Stefan Allen's Stock List
+ ====================
+
+ ID 101: RTX 3060 stock level: 0
+ ID 102: RTX 3060 TI stock level: 0
+ ID 103: RTX 3070 stock level: 0
+ ID 104: RTX 3070 TI stock level: 0
+ ID 105: RTX 3080 stock level: 0
+ ID 106: RTX 3080 TI stock level: 0
+ ID 107: RTX 3090 stock level: 0
+ ID 108: RTX 3090 TI stock level: 0
+ ID 109: RTX 6000 stock level: 0
+ ID 110: RTX 8000 stock level: 0
+
+Brought 9 of RTX 3060
+Brought 4 of RTX 3060 TI
+Brought 9 of RTX 3070
+Brought 3 of RTX 3070 TI
+Brought 7 of RTX 3080
+Brought 5 of RTX 3080 TI
+Brought 2 of RTX 3090
+Brought 9 of RTX 3090 TI
+Brought 8 of RTX 6000
+Brought 4 of RTX 8000
+
+ Stefan Allen's Stock List
+ ====================
+
+ ID 101: RTX 3060 stock level: 9
+ ID 102: RTX 3060 TI stock level: 4
+ ID 103: RTX 3070 stock level: 9
+ ID 104: RTX 3070 TI stock level: 3
+ ID 105: RTX 3080 stock level: 7
+ ID 106: RTX 3080 TI stock level: 5
+ ID 107: RTX 3090 stock level: 2
+ ID 108: RTX 3090 TI stock level: 9
+ ID 109: RTX 6000 stock level: 8
+ ID 110: RTX 8000 stock level: 4
+
+Sold 5 of RTX 3060
+Sold 2 of RTX 3060 TI
+Sold 4 of RTX 3070
+Sold 1 of RTX 3070 TI
+Sold 5 of RTX 3080
+Sold 4 of RTX 3080 TI
+Sold 1 of RTX 3090
+Sold 6 of RTX 3090 TI
+Sold 4 of RTX 6000
+Sold 2 of RTX 8000
+
+ Stefan Allen's Stock List
+ ====================
+
+ ID 101: RTX 3060 stock level: 4
+ ID 102: RTX 3060 TI stock level: 2
+ ID 103: RTX 3070 stock level: 5
+ ID 104: RTX 3070 TI stock level: 2
+ ID 105: RTX 3080 stock level: 2
+ ID 106: RTX 3080 TI stock level: 1
+ ID 107: RTX 3090 stock level: 1
+ ID 108: RTX 3090 TI stock level: 3
+ ID 109: RTX 6000 stock level: 4
+ ID 110: RTX 8000 stock level: 2
+
+stockLis1.lowStockList();
+
+ Stefan Allen's Stock List
+ ====================
+
+If below 3 Increase stock level by 10
+ ID 101: RTX 3060 stock level: 4
+ ID 102: RTX 3060 TI stock level: 12
+ ID 103: RTX 3070 stock level: 5
+ ID 104: RTX 3070 TI stock level: 12
+ ID 105: RTX 3080 stock level: 12
+ ID 106: RTX 3080 TI stock level: 11
+ ID 107: RTX 3090 stock level: 11
+ ID 108: RTX 3090 TI stock level: 3
+ ID 109: RTX 6000 stock level: 4
+ ID 110: RTX 8000 stock level: 12

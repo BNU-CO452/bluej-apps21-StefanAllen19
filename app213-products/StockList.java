@@ -37,7 +37,21 @@ public class StockList
         buyProduct(productID, 1);
     }
     
-    
+     
+     public void remove(int productID)
+    {
+        Product product = findProduct(productID);
+        if(product != null)
+        {
+            stock.remove(product);  
+           System.out.println("Product Removed " + product.getName());
+        }
+        else
+        {
+            System.out.println("ID doesn't exist ");
+        }
+     }
+   
     /**
      * Buy a quantity of a particular product.
      * Increase the quantity of the product by the given amount.
@@ -69,6 +83,33 @@ public class StockList
         }
     }   
     
+    public void lowStockList()
+    {
+        printHeading();
+        for(Product product : stock) 
+            {
+            if(product.getQuantity() < 3)
+                product.increaseQuantity(10);
+            }
+            System.out.println("If below 3 Increase stock level by 10");
+        for(Product product : stock)
+            {
+                product.print();
+            }
+    }
+    
+    public void listLowStock()
+    {
+        printHeading();
+        for (Product product : stock)
+        {
+            if (product.getQuantity() < 3)
+            {
+                System.out.println(product);
+            }
+        }
+    }
+    
     /**
      * Find a product to match the product id,
      * if not found return null
@@ -92,7 +133,7 @@ public class StockList
     {
         sellProduct(productID, 1);
     }
-    
+   
     /**
      * Sell many of the given product.
      * Show the before and after status of the product.
