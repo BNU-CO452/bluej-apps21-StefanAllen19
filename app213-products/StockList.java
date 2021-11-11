@@ -124,6 +124,17 @@ public class StockList
         return null;
     }
     
+     public Product findProductName(String productName)
+    {
+        for(Product product : stock)
+        {
+            if(product.getName() == productName)
+                return product;
+            System.out.print(product);
+        }
+        return null;
+    }
+    
      /**
      * Sell one of the given product.
      * Show the before and after status of the product.
