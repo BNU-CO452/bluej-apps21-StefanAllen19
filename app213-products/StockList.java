@@ -37,7 +37,9 @@ public class StockList
         buyProduct(productID, 1);
     }
     
-     
+    /**
+     * Remove a product based on product ID
+     */
      public void remove(int productID)
     {
         Product product = findProduct(productID);
@@ -83,12 +85,16 @@ public class StockList
         }
     }   
     
+    /**
+     * If stock level below 3 increase stock level by 10 
+     */
     public void lowStockList()
     {
         printHeading();
-        for(Product product : stock) 
+        for (Product product : stock) 
             {
             if(product.getQuantity() < 3)
+
                 product.increaseQuantity(10);
             }
             System.out.println("If below 3 Increase stock level by 10");
@@ -98,6 +104,9 @@ public class StockList
             }
     }
     
+    /**
+     * Print a list of products that are below 2 stock level 
+     */
     public void listLowStock()
     {
         printHeading();
@@ -124,6 +133,9 @@ public class StockList
         return null;
     }
     
+    /**
+     * find a product base on product name 
+     */
      public Product findProductName(String productName)
     {
         for(Product product : stock)
@@ -182,7 +194,6 @@ public class StockList
         }
     }
 
-    
     /**
      * Locate a product with the given ID, and return how
      * many of this item are in stock. If the ID does not

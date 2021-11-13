@@ -1,4 +1,3 @@
-
 /**
  * Demonstrate the StockManager and Product classes.
  * The demonstration becomes properly functional as
@@ -55,6 +54,9 @@ public class StockDemo
         stock.print(); 
     }
     
+    /**
+     * Buy a product based on amount and ID
+     */
     private void buyProducts()
     {
         stock.buyProduct(101, 9);
@@ -69,6 +71,9 @@ public class StockDemo
         stock.buyProduct(110, 4);
     }
 
+    /**
+     * Sell a product based on amount and ID
+     */
     private void sellProducts()
     {
         stock.sellProduct(101, 5);
@@ -82,5 +87,4 @@ public class StockDemo
         stock.sellProduct(109, 4);
         stock.sellProduct(110, 2);
     }    
-    
 }
