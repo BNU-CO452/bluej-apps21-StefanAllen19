@@ -7,7 +7,7 @@
  * @author (Stefan Allen)
  * @version (21/11/2021)
  */
-public class StockApp
+public class StockApp  
 {
     private InputReader reader;
     
@@ -21,7 +21,7 @@ public class StockApp
         reader = new InputReader();
         
         stock = new StockList();
-        //StockDemo demo = new StockDemo(stock);
+        StockDemo demo = new StockDemo(stock);
     }
 
     /**
@@ -58,17 +58,13 @@ public class StockApp
             System.out.println("Product " + product.getID()
                 + "," + product.getName() + " has been ADDED");
         }
-        else if(choice.equals("print"))
+        if(choice.equals("print"))
         {
             stock.print();
         }
-        
         return false;
     }
-   
-    /**
-     * Print out a menu of operation choices
-     */
+    
     private void printMenuChoices()
     {
         System.out.println();
