@@ -150,6 +150,7 @@ public class StockApp
         int id = reader.getInt("Please enter the ID");
         System.out.println("Removing the product");
         System.out.println();
+        
         stock.remove(id);
     }
     
