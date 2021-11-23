@@ -21,7 +21,7 @@ public class StockApp
         reader = new InputReader();
         
         stock = new StockList();
-        StockDemo demo = new StockDemo(stock);
+        //StockDemo demo = new StockDemo(stock);
     }
 
     /**
@@ -67,7 +67,7 @@ public class StockApp
         }
         else if(choice.equals("restock"))
         {
-            restockProduct();
+            stock.lowStockList();
         }
         else if(choice.equals("search"))
         {
