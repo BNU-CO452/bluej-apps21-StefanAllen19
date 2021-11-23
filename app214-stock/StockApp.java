@@ -58,18 +58,69 @@ public class StockApp
             System.out.println("Product " + product.getID()
                 + "," + product.getName() + " has been ADDED");
         }
-        if(choice.equals("print"))
+        else if(choice.equals("print"))
         {
             stock.print();
+            System.out.println("Stock list printed");
+        }
+        else if(choice.equals("buy"))
+        {
+            stock.listLowStock();
+        }
+        else if(choice.equals("sell"))
+        {
+            int id = reader.getInt("Please Enter a Product ID ");
+            int amount = reader.getInt("Enter Amount to sell ");
+        
+            Product product = stock.findProduct(id);
+            stock.sellProduct(id, amount);
+            stock.print();
+            System.out.println("Bought "+ amount +" of ID " + product.getID() + ": "+
+            product.getName());
+        }
+        else if(choice.equals("restock"))
+        {
+            int id = reader.getInt("Please Enter a Product ID ");
+            Product product = stock.findProduct(id);
+            product.increaseQuantity(10);
+            System.out.println("Restocked product: " + product.getID() +
+            product.getName());
+        }
+        else if(choice.equals("search"))
+        {
+            int id = reader.getInt("Please Enter a Product ID "); 
+            Product product = stock.findProduct(id);
+            System.out.println("Product found: " + product.getID() + ": " +
+            product.getName());
+        }
+        else if (choice.equals("low stock")) 
+        {
+         stock.listLowStock();
+        }
+        else if(choice.equals("remove"))
+        {
+            int id = reader.getInt("Please enter the ID");
+            System.out.println("Removing the product");
+            System.out.println();
+            stock.remove(id);
+        }
+        else
+        {
+            System.out.println("ID doesn't exist ");
         }
         return false;
     }
-    
+
     private void printMenuChoices()
     {
         System.out.println();
         System.out.println("    Add:        Add a new product");
         System.out.println("    Remove:     Remove an old product");
+        System.out.println("    Buy:        Buy a product");
+        System.out.println("    Sell:       Sell a product");
+        System.out.println("    Restock:    Restock a product");
+        System.out.println("    Search:     Find a product");
+        System.out.println("    Low stock:  Restock product");
         System.out.println("    Print:      Print all products");
         System.out.println("    Quit:       Quit the program");
         System.out.println();        

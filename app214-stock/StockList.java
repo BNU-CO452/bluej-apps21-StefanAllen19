@@ -45,7 +45,7 @@ public class StockList
         Product product = findProduct(productID);
         if(product != null)
         {
-            stock.remove(product);  
+           stock.remove(product);  
            System.out.println("Product Removed " + product.getName());
         }
         else
@@ -112,7 +112,7 @@ public class StockList
         printHeading();
         for (Product product : stock)
         {
-            if (product.getQuantity() < 3)
+            if (product.getQuantity() < 5)
             {
                 System.out.println(product);
             }
