@@ -59,7 +59,18 @@ public class StockApp
         }
         else if(choice.equals("buy"))
         {
-           buyProduct();
+            int id = reader.getInt("Please enter the ID");
+            int amount = reader.getInt ("Please Enter the Amount to be Bought");
+            if(1 <= amount && amount <= 10)
+            {
+                stock.buyProduct(id,amount);
+                System.out.println("Purchased" +id+" "+amount+ ",thank you");
+
+            }
+            else
+            {
+                System.out.println("ID doesn't exist");
+            }
         }
         else if(choice.equals("sell"))
         {
@@ -86,12 +97,12 @@ public class StockApp
     
     private void addProduct()
     {
-         int id = reader.getInt("Please enter the ID");
-         String name = reader.getString("Please enter the name of the product:");
-         Product product = new Product(id, name);
-         stock.add(product);
-         System.out.println("Product " + product.getID()
-            + "," + product.getName() + " has been ADDED");
+        int id = reader.getInt("Please enter the ID");
+        String name = reader.getString("Please enter the name of the product:");
+        Product product = new Product(id, name);
+        stock.add(product);
+        System.out.println("Product " + product.getID()
+           + "," + product.getName() + " has been ADDED");
     }
     
     private void printProduct()
@@ -112,10 +123,10 @@ public class StockApp
         Product product = stock.findProduct(id);
         stock.buyProduct(id, amount);
         stock.print();
-        System.out.println("Bought "+amount+" of ID "+product.getID()+": "+
+        System.out.println("Bought "+ amount +" of ID "+product.getID()+": "+
         product.getName());
     }
-    
+
     private void sellProduct()
     {
         int id = reader.getInt("Please Enter a Product ID ");
