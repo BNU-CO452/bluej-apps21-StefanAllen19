@@ -65,7 +65,7 @@ public class StockList
         Product product = findProduct(productID);
         if(product != null) 
         {
-            if(product.getQuantity() < 10) 
+            if(product.getQuantity() < 100) 
             {
                 product.increaseQuantity(amount);
                 System.out.println("Brought " + amount + " of " + product.getName());
@@ -80,7 +80,7 @@ public class StockList
         }
         else
         {
-            System.out.println("Couldn't find product");
+            System.out.println("Couldn't find ID");
         }
     }   
     
