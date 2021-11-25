@@ -30,14 +30,6 @@ public class StockList
     }
     
     /**
-     * A method to buy a single quantity of the product
-     */
-    public void buyProduct(int productID)
-    {
-        buyProduct(productID, 1);
-    }
-    
-    /**
      * Remove a product based on product ID
      */
      public void remove(int productID)
@@ -53,7 +45,15 @@ public class StockList
             System.out.println("ID doesn't exist ");
         }
      }
-   
+    
+    /**
+     * A method to buy a single quantity of the product
+     */
+    public void buyProduct(int productID)
+    {
+        buyProduct(productID, 1);
+    }
+    
     /**
      * Buy a quantity of a particular product.
      * Increase the quantity of the product by the given amount.
@@ -81,7 +81,6 @@ public class StockList
         else
         {
             System.out.println("Couldn't find product");
-            // printout message
         }
     }   
     
