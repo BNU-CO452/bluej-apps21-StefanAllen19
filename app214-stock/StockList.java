@@ -20,7 +20,7 @@ public class StockList
         stock = new ArrayList<Product>();
     }
 
-    /**
+     /**
      * Add a product to the list.
      * @param item The product item to be added.
      */
@@ -44,7 +44,7 @@ public class StockList
         {
             System.out.println("ID doesn't exist ");
         }
-     }
+    }
     
     /**
      * A method to buy a single quantity of the product
