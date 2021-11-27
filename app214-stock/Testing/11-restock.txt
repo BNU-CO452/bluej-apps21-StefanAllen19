@@ -1,0 +1,200 @@
+********************************
+
+    Print:      Print all products
+    Quit:       Quit the program
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Buy:        Buy a product
+    Sell:       Sell a product
+    Search:     Find a product
+    Low stock:  Restock product
+    Restock:    Restock a product
+
+Please enter your choice > add
+Please enter the ID: 
+101
+Please enter the name of the product: Rtx 3060
+Product 101, Rtx 3060 has been ADDED
+********************************
+  App21-04: Stock Application 
+      by Stefan Allen
+********************************
+
+    Print:      Print all products
+    Quit:       Quit the program
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Buy:        Buy a product
+    Sell:       Sell a product
+    Search:     Find a product
+    Low stock:  Restock product
+    Restock:    Restock a product
+
+Please enter your choice > add
+Please enter the ID: 
+102
+Please enter the name of the product: Rtx 3070
+Product 102, Rtx 3070 has been ADDED
+********************************
+  App21-04: Stock Application 
+      by Stefan Allen
+********************************
+
+    Print:      Print all products
+    Quit:       Quit the program
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Buy:        Buy a product
+    Sell:       Sell a product
+    Search:     Find a product
+    Low stock:  Restock product
+    Restock:    Restock a product
+
+Please enter your choice > add
+Please enter the ID: 
+103
+Please enter the name of the product: Rtx 3080
+Product 103, Rtx 3080 has been ADDED
+********************************
+  App21-04: Stock Application 
+      by Stefan Allen
+********************************
+
+    Print:      Print all products
+    Quit:       Quit the program
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Buy:        Buy a product
+    Sell:       Sell a product
+    Search:     Find a product
+    Low stock:  Restock product
+    Restock:    Restock a product
+
+Please enter your choice > add
+Please enter the ID: 
+104
+Please enter the name of the product: Rtx 3090
+Product 104, Rtx 3090 has been ADDED
+********************************
+  App21-04: Stock Application 
+      by Stefan Allen
+********************************
+
+    Print:      Print all products
+    Quit:       Quit the program
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Buy:        Buy a product
+    Sell:       Sell a product
+    Search:     Find a product
+    Low stock:  Restock product
+    Restock:    Restock a product
+
+Please enter your choice > add
+Please enter the ID: 
+105
+Please enter the name of the product: Rtx 3090TI
+Product 105, Rtx 3090TI has been ADDED
+********************************
+  App21-04: Stock Application 
+      by Stefan Allen
+********************************
+
+    Print:      Print all products
+    Quit:       Quit the program
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Buy:        Buy a product
+    Sell:       Sell a product
+    Search:     Find a product
+    Low stock:  Restock product
+    Restock:    Restock a product
+
+Please enter your choice > print
+
+ Stefan Allen's Stock List
+ ====================
+
+ ID 101: Rtx 3060 stock level: 0
+ ID 102: Rtx 3070 stock level: 0
+ ID 103: Rtx 3080 stock level: 0
+ ID 104: Rtx 3090 stock level: 0
+ ID 105: Rtx 3090TI stock level: 0
+
+Stock list printed
+********************************
+  App21-04: Stock Application 
+      by Stefan Allen
+********************************
+
+    Print:      Print all products
+    Quit:       Quit the program
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Buy:        Buy a product
+    Sell:       Sell a product
+    Search:     Find a product
+    Low stock:  Restock product
+    Restock:    Restock a product
+
+Please enter your choice > buy
+Buying a Product
+
+Please Enter a Product ID > 
+101
+Please Enter the Amount to be Bought > 
+14
+Brought 14 of Rtx 3060
+
+ Stefan Allen's Stock List
+ ====================
+
+ ID 101: Rtx 3060 stock level: 14
+ ID 102: Rtx 3070 stock level: 0
+ ID 103: Rtx 3080 stock level: 0
+ ID 104: Rtx 3090 stock level: 0
+ ID 105: Rtx 3090TI stock level: 0
+
+Bought 14 of ID 101: Rtx 3060
+********************************
+  App21-04: Stock Application 
+      by Stefan Allen
+********************************
+
+    Print:      Print all products
+    Quit:       Quit the program
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Buy:        Buy a product
+    Sell:       Sell a product
+    Search:     Find a product
+    Low stock:  Restock product
+    Restock:    Restock a product
+
+Please enter your choice > restock
+
+ Stefan Allen's Stock List
+ ====================
+
+If below 3 Increase stock level by 10
+ ID 101: Rtx 3060 stock level: 14
+ ID 102: Rtx 3070 stock level: 10
+ ID 103: Rtx 3080 stock level: 10
+ ID 104: Rtx 3090 stock level: 10
+ ID 105: Rtx 3090TI stock level: 10
+********************************
+  App21-04: Stock Application 
+      by Stefan Allen
+********************************
+
+    Print:      Print all products
+    Quit:       Quit the program
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Buy:        Buy a product
+    Sell:       Sell a product
+    Search:     Find a product
+    Low stock:  Restock product
+    Restock:    Restock a product
+
+Please enter your choice > 
