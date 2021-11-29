@@ -142,8 +142,8 @@ public class StockApp
         String name = reader.getString("Please enter the name of the product: ");
         Product product = new Product(id, name);
         stock.print();
-        System.out.println("Product " + product.getID()
-            + "," + " " + product.getName() + " Has been found");
+        System.out.println(" ID: "+ product.getID()
+            + "," + " " + "Product:" + " " + product.getName() + " Has been found");
     }
     
     private void removeProduct()
