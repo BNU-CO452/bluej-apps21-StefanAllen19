@@ -106,8 +106,7 @@ public class StockApp
         System.out.println();
         
         int id = reader.getInt("Please Enter a Product ID > ");
-        int amount = reader.getInt(
-        "Please Enter the Amount to be Bought > ");
+        int amount = reader.getInt("Please Enter the Amount to be Bought > ");
         
         Product product = stock.findProduct(id);
         stock.buyProduct(id, amount);
@@ -139,10 +138,12 @@ public class StockApp
     
     private void searchProduct()
     {  
-        int id = reader.getInt("Please Enter a Product ID "); 
-        Product product = stock.findProduct(id);
-        System.out.println("Product found: " + product.getID() + ": " +
-        product.getName());
+        int id = reader.getInt("Please enter the ID: "); 
+        String name = reader.getString("Please enter the name of the product: ");
+        Product product = new Product(id, name);
+        stock.print();
+        System.out.println("Product " + product.getID()
+            + "," + " " + product.getName() + " Has been found");
     }
     
     private void removeProduct()

@@ -20,7 +20,7 @@ public class StockList
         stock = new ArrayList<Product>();
     }
 
-     /**
+    /**
      * Add a product to the list.
      * @param item The product item to be added.
      */
