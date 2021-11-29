@@ -22,16 +22,16 @@ public class StockDemo
         // Add at least 10 products, they must be unique to you
         // Make sure the ids are sequential numbers
         
-        //stock.add(new Product(101, "RTX 3060"));
-        //stock.add(new Product(102, "RTX 3060 TI"));
-        //stock.add(new Product(103, "RTX 3070"));
-        //stock.add(new Product(104, "RTX 3070 TI"));
-        //stock.add(new Product(105, "RTX 3080"));
-        //stock.add(new Product(106, "RTX 3080 TI"));
-        //stock.add(new Product(107, "RTX 3090"));
-        //stock.add(new Product(108, "RTX 3090 TI"));
-        //stock.add(new Product(109, "RTX 6000"));
-        //stock.add(new Product(110, "RTX 8000"));
+        stock.add(new Product(101, "RTX 3060"));
+        stock.add(new Product(102, "RTX 3060 TI"));
+        stock.add(new Product(103, "RTX 3070"));
+        stock.add(new Product(104, "RTX 3070 TI"));
+        stock.add(new Product(105, "RTX 3080"));
+        stock.add(new Product(106, "RTX 3080 TI"));
+        stock.add(new Product(107, "RTX 3090"));
+        stock.add(new Product(108, "RTX 3090 TI"));
+        stock.add(new Product(109, "RTX 6000"));
+        stock.add(new Product(110, "RTX 8000"));
     }
     
     /**

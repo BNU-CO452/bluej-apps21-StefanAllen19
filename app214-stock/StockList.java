@@ -69,13 +69,11 @@ public class StockList
             {
                 product.increaseQuantity(amount);
                 System.out.println("Brought " + amount + " of " + product.getName());
-                // printout message
             }
             else if(product.getQuantity() == 0) 
             {
                 System.out.println("Not enough space for " + product.getName() 
                                     + ". Please sell the existing stock");
-                // printout message
             }
         }
         else
