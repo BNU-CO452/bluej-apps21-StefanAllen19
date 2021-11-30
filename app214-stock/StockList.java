@@ -1,4 +1,4 @@
-import java.util.ArrayList;
+ import java.util.ArrayList;
 
 /**
  * Manage the stock in a business.
@@ -9,7 +9,6 @@ import java.util.ArrayList;
  */
 public class StockList
 {
-    // A list of the products.
     private ArrayList<Product> stock;
 
     /**
