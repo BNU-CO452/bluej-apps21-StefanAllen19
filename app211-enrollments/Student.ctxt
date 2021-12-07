@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=Student
+comment0.text=\r\n\ The\ Student\ class\ contains\ essential\ information\ that\ identifies\ \r\n\ a\ student\ at\ BNU.\ \ The\ class\ also\ contains\ information\ \r\n\ concerning\ the\ course\ the\ student\ is\ currently\ enrolled\ on\r\n\ \r\n\ @author\ Michael\ K\u00F6lling\ and\ David\ Barnes\r\n\ @modified\ by\ Derek\ Peacock\ and\ Nicholas\ Day\r\n\ @version\ 2021\:08\:15\r\n
+comment1.params=name\ id
+comment1.target=Student(java.lang.String,\ int)
+comment1.text=\r\n\ Create\ a\ new\ student\ with\ a\ given\ name\ and\ ID\ number.\r\n
+comment2.params=
+comment2.target=java.lang.String\ getName()
+comment2.text=\r\n\ Return\ the\ full\ name\ of\ this\ student.\r\n
+comment3.params=
+comment3.target=int\ getID()
+comment3.text=\r\n\ Return\ the\ student\ ID\ of\ this\ student.\r\n
+comment4.params=course
+comment4.target=void\ enrol(Course)
+comment5.params=
+comment5.target=void\ print()
+comment5.text=\r\n\ Print\ the\ student's\ name\ and\ ID\ number\ to\ the\ output\ terminal.\r\n
+comment6.params=
+comment6.target=void\ printCourse()
+numComments=7
