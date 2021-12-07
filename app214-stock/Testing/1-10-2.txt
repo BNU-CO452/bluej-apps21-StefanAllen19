@@ -1,0 +1,178 @@
+Program.main({ });
+********************************
+  App21-04: Stock Application 
+      by Stefan Allen
+********************************
+
+    Print:      Print all products
+    Quit:       Quit the program
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Buy:        Buy a product
+    Sell:       Sell a product
+    Search:     Find a product
+    Low stock:  Restock product
+    Restock:    Restock a product
+
+Please enter your choice > remove
+Please enter the ID
+111
+Removing the product
+
+ID doesn't exist 
+********************************
+  App21-04: Stock Application 
+      by Stefan Allen
+********************************
+
+    Print:      Print all products
+    Quit:       Quit the program
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Buy:        Buy a product
+    Sell:       Sell a product
+    Search:     Find a product
+    Low stock:  Restock product
+    Restock:    Restock a product
+
+Please enter your choice > buy
+Buying a Product
+
+Please Enter a Product ID > 
+106
+Please Enter the Amount to be Bought > 
+4324
+Brought 4324 of RTX 3080 TI
+
+ Stefan Allen's Stock List
+ ====================
+
+ ID 101: RTX 3060 stock level: 0
+ ID 102: RTX 3060 TI stock level: 0
+ ID 103: RTX 3070 stock level: 0
+ ID 104: RTX 3070 TI stock level: 0
+ ID 105: RTX 3080 stock level: 0
+ ID 106: RTX 3080 TI stock level: 4324
+ ID 107: RTX 3090 stock level: 0
+ ID 108: RTX 3090 TI stock level: 0
+ ID 109: RTX 6000 stock level: 0
+ ID 110: RTX 8000 stock level: 0
+
+Bought 4324 of ID 106: RTX 3080 TI
+********************************
+  App21-04: Stock Application 
+      by Stefan Allen
+********************************
+
+    Print:      Print all products
+    Quit:       Quit the program
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Buy:        Buy a product
+    Sell:       Sell a product
+    Search:     Find a product
+    Low stock:  Restock product
+    Restock:    Restock a product
+
+Please enter your choice > sell
+Please Enter a Product ID 
+106
+Enter Amount to sell 
+24
+Sold 24 of RTX 3080 TI
+
+ Stefan Allen's Stock List
+ ====================
+
+ ID 101: RTX 3060 stock level: 0
+ ID 102: RTX 3060 TI stock level: 0
+ ID 103: RTX 3070 stock level: 0
+ ID 104: RTX 3070 TI stock level: 0
+ ID 105: RTX 3080 stock level: 0
+ ID 106: RTX 3080 TI stock level: 4300
+ ID 107: RTX 3090 stock level: 0
+ ID 108: RTX 3090 TI stock level: 0
+ ID 109: RTX 6000 stock level: 0
+ ID 110: RTX 8000 stock level: 0
+
+Sold 24 of ID 106: RTX 3080 TI
+********************************
+  App21-04: Stock Application 
+      by Stefan Allen
+********************************
+
+    Print:      Print all products
+    Quit:       Quit the program
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Buy:        Buy a product
+    Sell:       Sell a product
+    Search:     Find a product
+    Low stock:  Restock product
+    Restock:    Restock a product
+
+Please enter your choice > search
+Please enter the ID: 
+106
+Please enter the name of the product: RTX 3080 TI
+
+ Stefan Allen's Stock List
+ ====================
+
+ ID 101: RTX 3060 stock level: 0
+ ID 102: RTX 3060 TI stock level: 0
+ ID 103: RTX 3070 stock level: 0
+ ID 104: RTX 3070 TI stock level: 0
+ ID 105: RTX 3080 stock level: 0
+ ID 106: RTX 3080 TI stock level: 4300
+ ID 107: RTX 3090 stock level: 0
+ ID 108: RTX 3090 TI stock level: 0
+ ID 109: RTX 6000 stock level: 0
+ ID 110: RTX 8000 stock level: 0
+
+ ID: 106, Product: RTX 3080 TI Has been found
+********************************
+  App21-04: Stock Application 
+      by Stefan Allen
+********************************
+
+    Print:      Print all products
+    Quit:       Quit the program
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Buy:        Buy a product
+    Sell:       Sell a product
+    Search:     Find a product
+    Low stock:  Restock product
+    Restock:    Restock a product
+
+Please enter your choice > low stock
+
+ Stefan Allen's Stock List
+ ====================
+
+ ID 101: RTX 3060 stock level: 0
+ ID 102: RTX 3060 TI stock level: 0
+ ID 103: RTX 3070 stock level: 0
+ ID 104: RTX 3070 TI stock level: 0
+ ID 105: RTX 3080 stock level: 0
+ ID 107: RTX 3090 stock level: 0
+ ID 108: RTX 3090 TI stock level: 0
+ ID 109: RTX 6000 stock level: 0
+ ID 110: RTX 8000 stock level: 0
+********************************
+  App21-04: Stock Application 
+      by Stefan Allen
+********************************
+
+    Print:      Print all products
+    Quit:       Quit the program
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Buy:        Buy a product
+    Sell:       Sell a product
+    Search:     Find a product
+    Low stock:  Restock product
+    Restock:    Restock a product
+
+Please enter your choice > quit

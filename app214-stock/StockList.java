@@ -1,4 +1,4 @@
-import java.util.ArrayList;
+ import java.util.ArrayList;
 
 /**
  * Manage the stock in a business.
@@ -9,7 +9,6 @@ import java.util.ArrayList;
  */
 public class StockList
 {
-    // A list of the products.
     private ArrayList<Product> stock;
 
     /**
@@ -30,14 +29,6 @@ public class StockList
     }
     
     /**
-     * A method to buy a single quantity of the product
-     */
-    public void buyProduct(int productID)
-    {
-        buyProduct(productID, 1);
-    }
-    
-    /**
      * Remove a product based on product ID
      */
      public void remove(int productID)
@@ -45,15 +36,23 @@ public class StockList
         Product product = findProduct(productID);
         if(product != null)
         {
-            stock.remove(product);  
+           stock.remove(product);  
            System.out.println("Product Removed " + product.getName());
         }
         else
         {
             System.out.println("ID doesn't exist ");
         }
-     }
-   
+    }
+    
+    /**
+     * A method to buy a single quantity of the product
+     */
+    public void buyProduct(int productID)
+    {
+        buyProduct(productID, 1);
+    }
+    
     /**
      * Buy a quantity of a particular product.
      * Increase the quantity of the product by the given amount.
@@ -65,23 +64,20 @@ public class StockList
         Product product = findProduct(productID);
         if(product != null) 
         {
-            if(product.getQuantity() < 10) 
+            if(product.getQuantity() < 100) 
             {
                 product.increaseQuantity(amount);
                 System.out.println("Brought " + amount + " of " + product.getName());
-                // printout message
             }
             else if(product.getQuantity() == 0) 
             {
                 System.out.println("Not enough space for " + product.getName() 
                                     + ". Please sell the existing stock");
-                // printout message
             }
         }
         else
         {
-            System.out.println("Couldn't find product");
-            // printout message
+            System.out.println("Couldn't find ID");
         }
     }   
     
@@ -112,7 +108,7 @@ public class StockList
         printHeading();
         for (Product product : stock)
         {
-            if (product.getQuantity() < 3)
+            if (product.getQuantity() < 5)
             {
                 System.out.println(product);
             }

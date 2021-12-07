@@ -1,0 +1,155 @@
+Program.main({ });
+********************************
+  App21-04: Stock Application 
+      by Stefan Allen
+********************************
+
+    Print:      Print all products
+    Quit:       Quit the program
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Buy:        Buy a product
+    Sell:       Sell a product
+    Search:     Find a product
+    Low stock:  Restock product
+    Restock:    Restock a product
+
+Please enter your choice > print
+
+ Stefan Allen's Stock List
+ ====================
+
+ ID 101: RTX 3060 stock level: 0
+ ID 102: RTX 3060 TI stock level: 0
+ ID 103: RTX 3070 stock level: 0
+ ID 104: RTX 3070 TI stock level: 0
+ ID 105: RTX 3080 stock level: 0
+ ID 106: RTX 3080 TI stock level: 0
+ ID 107: RTX 3090 stock level: 0
+ ID 108: RTX 3090 TI stock level: 0
+ ID 109: RTX 6000 stock level: 0
+ ID 110: RTX 8000 stock level: 0
+
+Stock list printed
+********************************
+  App21-04: Stock Application 
+      by Stefan Allen
+********************************
+
+    Print:      Print all products
+    Quit:       Quit the program
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Buy:        Buy a product
+    Sell:       Sell a product
+    Search:     Find a product
+    Low stock:  Restock product
+    Restock:    Restock a product
+
+Please enter your choice > add
+Please enter the ID: 
+111
+Please enter the name of the product: RTX 69
+Product 111, RTX 69 has been ADDED
+********************************
+  App21-04: Stock Application 
+      by Stefan Allen
+********************************
+
+    Print:      Print all products
+    Quit:       Quit the program
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Buy:        Buy a product
+    Sell:       Sell a product
+    Search:     Find a product
+    Low stock:  Restock product
+    Restock:    Restock a product
+
+Please enter your choice > print
+
+ Stefan Allen's Stock List
+ ====================
+
+ ID 101: RTX 3060 stock level: 0
+ ID 102: RTX 3060 TI stock level: 0
+ ID 103: RTX 3070 stock level: 0
+ ID 104: RTX 3070 TI stock level: 0
+ ID 105: RTX 3080 stock level: 0
+ ID 106: RTX 3080 TI stock level: 0
+ ID 107: RTX 3090 stock level: 0
+ ID 108: RTX 3090 TI stock level: 0
+ ID 109: RTX 6000 stock level: 0
+ ID 110: RTX 8000 stock level: 0
+ ID 111: RTX 69 stock level: 0
+
+Stock list printed
+********************************
+  App21-04: Stock Application 
+      by Stefan Allen
+********************************
+
+    Print:      Print all products
+    Quit:       Quit the program
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Buy:        Buy a product
+    Sell:       Sell a product
+    Search:     Find a product
+    Low stock:  Restock product
+    Restock:    Restock a product
+
+Please enter your choice > remove
+Please enter the ID
+111
+Removing the product
+
+Product Removed RTX 69
+********************************
+  App21-04: Stock Application 
+      by Stefan Allen
+********************************
+
+    Print:      Print all products
+    Quit:       Quit the program
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Buy:        Buy a product
+    Sell:       Sell a product
+    Search:     Find a product
+    Low stock:  Restock product
+    Restock:    Restock a product
+
+Please enter your choice > print
+
+ Stefan Allen's Stock List
+ ====================
+
+ ID 101: RTX 3060 stock level: 0
+ ID 102: RTX 3060 TI stock level: 0
+ ID 103: RTX 3070 stock level: 0
+ ID 104: RTX 3070 TI stock level: 0
+ ID 105: RTX 3080 stock level: 0
+ ID 106: RTX 3080 TI stock level: 0
+ ID 107: RTX 3090 stock level: 0
+ ID 108: RTX 3090 TI stock level: 0
+ ID 109: RTX 6000 stock level: 0
+ ID 110: RTX 8000 stock level: 0
+
+Stock list printed
+********************************
+  App21-04: Stock Application 
+      by Stefan Allen
+********************************
+
+    Print:      Print all products
+    Quit:       Quit the program
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Buy:        Buy a product
+    Sell:       Sell a product
+    Search:     Find a product
+    Low stock:  Restock product
+    Restock:    Restock a product
+
+Please enter your choice > 
