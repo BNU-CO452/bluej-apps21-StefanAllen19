@@ -1,6 +1,6 @@
 #BlueJ class context
 comment0.target=TakeCommand
-comment0.text=\r\n\ This\ command\ allows\ the\ player\ to\r\n\ take\ or\ pickup\ an\ item\ from\ a\ room\r\n\ and\ carry\ it\ around\ to\ use\ somewhere\r\n\ else\r\n\r\n\ @author\ Derek\ Peacock\ &\ Nicholas\ Day\r\n\ @version\ 2021-08-23\r\n
+comment0.text=\r\n\ This\ command\ allows\ the\ player\ to\r\n\ take\ or\ pickup\ an\ item\ from\ a\ room\r\n\ and\ carry\ it\ around\ to\ use\ somewhere\r\n\ else\r\n\r\n\ @author\ \ Stefan\ Allen,\ "\ Mo's\ full\ name\ "\ And\ "\ Ben's\ full\ name\ "\r\n\ @version\ 14/12/2021\r\n
 comment1.params=zuul\ item
 comment1.target=TakeCommand(Game,\ java.lang.String)
 comment1.text=\r\n\ Take\ an\ item\ from\ a\ location\ and\ add\ it\r\n\ to\ the\ player's\ inventory.\r\n

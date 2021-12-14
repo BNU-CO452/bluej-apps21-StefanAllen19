@@ -1,6 +1,6 @@
 #BlueJ class context
 comment0.target=CommandWords
-comment0.text=\r\n\ This\ contains\ all\ the\ possible\ command\ words\r\n\ for\ the\ game\ of\ Zuul\r\n\r\n\ @author\ Derek\ Peacock\ &\ Nicholas\ Day\r\n\ @version\ 25-08-2021\r\n
+comment0.text=\r\n\ This\ contains\ all\ the\ possible\ command\ words\r\n\ for\ the\ game\ of\ Zuul\r\n\r\n\ @author\ \ Stefan\ Allen,\ "\ Mo's\ full\ name\ "\ And\ "\ Ben's\ full\ name\ "\r\n\ @version\ 14/12/2021\r\n
 comment1.params=word\ description
 comment1.target=CommandWords(java.lang.String,\ java.lang.String)
 numComments=2

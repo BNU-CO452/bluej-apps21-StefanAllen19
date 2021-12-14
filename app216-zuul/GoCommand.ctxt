@@ -1,6 +1,6 @@
 #BlueJ class context
 comment0.target=GoCommand
-comment0.text=\r\n\ This\ command\ transfers\ the\ player\ from\r\n\ one\ location\ to\ another\ location\ provided\ the\r\n\ two\ locations\ are\ linked\ by\ a\ valid\ exit\r\n\r\n\ @author\ Derek\ Peacock\ &\ Nicholas\ Day\r\n\ @version\ 2021-08-23\r\n
+comment0.text=\r\n\ This\ command\ transfers\ the\ player\ from\r\n\ one\ location\ to\ another\ location\ provided\ the\r\n\ two\ locations\ are\ linked\ by\ a\ valid\ exit\r\n\r\n\ @author\ \ Stefan\ Allen,\ "\ Mo's\ full\ name\ "\ And\ "\ Ben's\ full\ name\ "\r\n\ @version\ 14/12/2021\r\n
 comment1.params=zuul\ direction
 comment1.target=GoCommand(Game,\ java.lang.String)
 comment2.params=

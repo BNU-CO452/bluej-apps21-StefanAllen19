@@ -1,6 +1,6 @@
 #BlueJ class context
 comment0.target=Map
-comment0.text=\r\n\ This\ class\ is\ reponsible\ for\ creating\ and\r\n\ linking\ all\ the\ Locations\ in\ the\ game\ to\r\n\ form\ a\ 2D\ or\ 3D\ network\r\n\r\n\ \ [Pub]<---->[Outside]<---->[Theatre]\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ |\r\n\ \ \ \ \ \ \ \ \ \ [Computer\ Lab]<---->[Office]\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \r\n\ @author\ Derek\ Peacock\ and\ Nicholas\ Day\r\n\ @version\ 2021-08-22\r\n
+comment0.text=\r\n\ This\ class\ is\ reponsible\ for\ creating\ and\r\n\ linking\ all\ the\ Locations\ in\ the\ game\ to\r\n\ form\ a\ 2D\ or\ 3D\ network\r\n\r\n\ \ [Pub]<---->[Outside]<---->[Theatre]\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ |\r\n\ \ \ \ \ \ \ \ \ \ [Computer\ Lab]<---->[Office]\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \r\n\ @author\ \ Stefan\ Allen,\ "\ Mo's\ full\ name\ "\ And\ "\ Ben's\ full\ name\ "\r\n\ @version\ 14/12/2021\r\n
 comment1.params=
 comment1.target=Map()
 comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Map\r\n

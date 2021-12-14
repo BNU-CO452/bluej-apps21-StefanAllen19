@@ -13,8 +13,8 @@ import java.util.ArrayList;
  * the known commands, and if the input is not one of the known commands, it
  * returns a command object that is marked as an unknown command.
  * 
- * @author  Michael Kölling and David J. Barnes
- * @version 2016.02.29
+ * @author  Stefan Allen, " Mo's full name " And " Ben's full name "
+ * @version 14/12/2021
  */
 public class CommandReader 
 {

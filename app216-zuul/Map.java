@@ -8,8 +8,8 @@
  *                 |
  *          [Computer Lab]<---->[Office]
  *             
- * @author Derek Peacock and Nicholas Day
- * @version 2021-08-22
+ * @author  Stefan Allen, " Mo's full name " And " Ben's full name "
+ * @version 14/12/2021
  */
 public class Map
 {
@@ -51,7 +51,6 @@ public class Map
     private void createOutside()
     {
         outside = new Location("outside the main entrance of the university");
-        
     }
     
     /**
