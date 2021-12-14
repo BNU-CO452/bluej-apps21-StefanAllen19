@@ -35,11 +35,20 @@ public class Map
      */
     private void createLocations()
     {
-        createOutside();
-        createTheatre();
-        createPub();
-        createOffice();
-        createLab();
+        //createStart();
+        //createMainHall();
+        //createMainKeyRoom();
+        //createPreditorHallway();
+        //createPreditorsBasement();
+        //createMainHallway();
+        //createLookedDoor();
+        //createLootRoom();
+        //createVaultDoor();
+        //createExit();
+        //createKeyCardRoom();
+        //createBossRoom();
+        //createSecretLootRoomDoor();
+        //createSecretLootRoom();
 
         currentLocation = outside;  // start game outside
     }
