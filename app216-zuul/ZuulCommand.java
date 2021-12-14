@@ -16,7 +16,7 @@
  * This replaces the BlueJ Command class and is based
  * on the classic Coomand design pattern
  * 
- * @author  Stefan Allen, " Mo's full name " And " Ben's full name "
+ * @author  Stefan Allen, " Mohammed Loqman " And " Ben's full name "
  * @version 14/12/2021
  */
 public abstract class ZuulCommand

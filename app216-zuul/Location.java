@@ -12,7 +12,7 @@ import java.util.Iterator;
  * connected to other locations via exits.  For each existing exit, the 
  * location stores a reference to the neighboring locations.
  * 
- * @author  Stefan Allen, " Mo's full name " And " Ben's full name "
+ * @author  Stefan Allen, " Mohammed Loqman " And " Ben's full name "
  * @version 14/12/2021
  */
 

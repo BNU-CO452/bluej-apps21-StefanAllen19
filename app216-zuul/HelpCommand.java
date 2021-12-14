@@ -2,7 +2,7 @@ import java.util.ArrayList;
 /**
  * Write a description of class HelpCommand here.
  *
- * @author  Stefan Allen, " Mo's full name " And " Ben's full name "
+ * @author  Stefan Allen, " Mohammed Loqman " And " Ben's full name "
  * @version 14/12/2021
  */
 public class HelpCommand extends ZuulCommand

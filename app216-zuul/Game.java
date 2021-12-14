@@ -10,7 +10,7 @@
  *  This main class creates and initialises all the others: it creates all
  *  locations, creates the CommandReader and starts the game.  
  * 
- * @author  Stefan Allen, " Mo's full name " And " Ben's full name "
+ * @author  Stefan Allen, " Mohammed Loqman" And " Ben's full name "
  * @version 14/12/2021
  * 
  * Modified and extended by Stefan, Mo and Ben

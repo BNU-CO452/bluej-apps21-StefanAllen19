@@ -5,7 +5,7 @@
  * and carry it around to use somewhere
  * else
  *
- * @author  Stefan Allen, " Mo's full name " And " Ben's full name "
+ * @author  Stefan Allen, " Mohammed Loqman " And " Ben's full name "
  * @version 14/12/2021
  */
 public class TakeCommand extends ZuulCommand

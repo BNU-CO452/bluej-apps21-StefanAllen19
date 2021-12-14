@@ -4,7 +4,7 @@
  * one location to another location provided the
  * two locations are linked by a valid exit
  *
- * @author  Stefan Allen, " Mo's full name " And " Ben's full name "
+ * @author  Stefan Allen, " Mohammed Loqman " And " Ben's full name "
  * @version 14/12/2021
  */
 public class GoCommand extends ZuulCommand

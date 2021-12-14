@@ -3,7 +3,7 @@
  * This contains all the possible command words
  * for the game of Zuul
  *
- * @author  Stefan Allen, " Mo's full name " And " Ben's full name "
+ * @author  Stefan Allen, " Mohammed Loqman " And " Ben's full name "
  * @version 14/12/2021
  */
 public enum CommandWords
