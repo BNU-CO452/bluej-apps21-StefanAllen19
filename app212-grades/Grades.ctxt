@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=Grades
+comment0.text=\r\n\ These\ are\ the\ grades\ used\ by\ BNU\ to\ classify\ \r\n\ students\ at\ the\ completion\ of\ their\ course\r\n\ Each\ value\ is\ the\ top\ percentage\ mark\ for\ that\ grade\r\n\ @author\ Stefan\ Allen\r\n\ @version\ 19/10/2021\r\n
+comment1.params=value
+comment1.target=Grades(int)
+comment2.params=
+comment2.target=int\ getValue()
+numComments=3

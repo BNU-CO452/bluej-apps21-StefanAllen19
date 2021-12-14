@@ -1,4 +1,4 @@
-import java.util.ArrayList;
+ import java.util.ArrayList;
 
 /**
  * Manage the stock in a business.
@@ -9,7 +9,6 @@ import java.util.ArrayList;
  */
 public class StockList
 {
-    // A list of the products.
     private ArrayList<Product> stock;
 
     /**
@@ -69,13 +68,11 @@ public class StockList
             {
                 product.increaseQuantity(amount);
                 System.out.println("Brought " + amount + " of " + product.getName());
-                // printout message
             }
             else if(product.getQuantity() == 0) 
             {
                 System.out.println("Not enough space for " + product.getName() 
                                     + ". Please sell the existing stock");
-                // printout message
             }
         }
         else

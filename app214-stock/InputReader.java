@@ -10,7 +10,6 @@ import java.util.Scanner;
 public class InputReader
 {
     private Scanner reader;
-
     /**
      * Create a new InputReader that reads text from the text terminal.
      */
@@ -42,7 +41,6 @@ public class InputReader
             else 
                 System.out.println("\nYour input is blank!\n");
         }
-
         return inputLine;
     }
     
@@ -58,7 +56,6 @@ public class InputReader
         
         int number = 0;
         boolean isValid = false;
-        
         while(!isValid)
         {
             System.out.println(prompt);         // print prompt
@@ -71,7 +68,6 @@ public class InputReader
             else 
                 System.out.println("Your value is less than zero!");
         }
-
         return number;
     }
 }
