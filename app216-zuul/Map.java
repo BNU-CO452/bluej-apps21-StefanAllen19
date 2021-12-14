@@ -50,7 +50,7 @@ public class Map
         //createSecretLootRoomDoor();
         //createSecretLootRoom();
 
-        currentLocation = outside;  // start game outside
+       //currentLocation = Start;  // start game outside
     }
     
     /**
