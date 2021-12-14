@@ -19,8 +19,9 @@ public class HelpCommand extends ZuulCommand
      */
     public void execute()
     {
-        System.out.println(" You are lost. You are alone. You wander");
-        System.out.println(" around at the university.");        
+        System.out.println(" The goal of the game is reach the" +
+                             "exit before the preditor catches you");
+        System.out.println(" around at the Spaceship.");        
         System.out.println();
         System.out.println(" Your command words are:");
         System.out.println();

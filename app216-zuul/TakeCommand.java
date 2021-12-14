@@ -27,7 +27,7 @@ public class TakeCommand extends ZuulCommand
         if(item == null) 
         {
             // if there is no second word, we don't know what to take...
-            System.out.println("Take what?");
+            System.out.println("Take flamethrower");
             return;
         }
 
