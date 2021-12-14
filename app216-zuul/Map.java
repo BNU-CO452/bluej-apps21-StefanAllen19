@@ -40,7 +40,13 @@ public class Map
         //createMainKeyRoom();
         //createPreditorHallway();
         //createPreditorsBasement();
-        //createMainHallway();
+        //createMainHallway1();
+        //createMainHallway2();
+        //createMainHallway3();
+        //createMainHallway4();
+        //createMainHallway5();
+        //createMainHallway6();
+        //createMainHallway7();
         //createLookedDoor();
         //createLootRoom();
         //createVaultDoor();
