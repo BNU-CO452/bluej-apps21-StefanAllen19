@@ -1,0 +1,7 @@
+ac\scythe\struct\player.class
+ac\scythe\app\Game.class
+ac\scythe\struct\stats.class
+ac\scythe\struct\destination.class
+ac\scythe\struct\item.class
+ac\scythe\app\App.class
+ac\scythe\util\Data.class
