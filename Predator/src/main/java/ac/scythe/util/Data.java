@@ -1,8 +1,9 @@
 package ac.scythe.util;
 
 import ac.scythe.struct.destination;
-import com.google.common.collect.HashBiMap;
+
+import java.util.HashMap;
 
 public class Data {
-    public static HashBiMap<Integer, destination> destinations = HashBiMap.create();
+    public static HashMap<Integer, destination> destinations = new HashMap<>();
 }

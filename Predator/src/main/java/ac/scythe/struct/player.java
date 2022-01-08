@@ -1,13 +1,19 @@
 package ac.scythe.struct;
 
+import java.util.Locale;
+import java.util.Map;
+
+import static ac.scythe.util.Data.destinations;
+
 public class player {
-    public Integer damage;
-    public Integer destination;
-    public Integer health;
-    public String name;
-    public Integer protection;
-    public Integer score;
-    public Integer warmth;
+    private Integer damage;
+    private Integer destination;
+    private Integer health;
+    private String name;
+    private Integer protection;
+    private Integer score;
+    private Integer warmth;
+    private Map<String, item> inventory;
 
 
 
@@ -22,6 +28,8 @@ public class player {
     public Integer getHealth() {
         return health;
     }
+
+    public Map<String, item> getInventory() { return inventory; }
 
     public String getName() {
         return name;
@@ -38,8 +46,6 @@ public class player {
     public Integer getWarmth() {
         return warmth;
     }
-
-
 
     public void setDamage(Integer damage) {
         this.damage = damage;
@@ -67,6 +73,17 @@ public class player {
 
     public void setWarmth(Integer warmth) {
         this.warmth = warmth;
+    }
+
+    public void addItem(String Item) {
+        destination place = destinations.get(destination);
+        item  placeItem = place.getItem(Item);
+
+        inventory.put(placeItem.getName().toLowerCase(Locale.ROOT), placeItem);
+    }
+
+    public void removeItem(String Item) {
+        inventory.remove(Item.toLowerCase(Locale.ROOT));
     }
 
     public player(String name) {

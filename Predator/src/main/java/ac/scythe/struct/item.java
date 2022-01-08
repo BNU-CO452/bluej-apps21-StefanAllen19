@@ -5,10 +5,10 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class item {
-    public String name;
-    public String description;
-    public HashMap<String, stats> stats;
-    public String origin;
+    private String name;
+    private String description;
+    private stats stats;
+    private String origin;
 
     public String getName() {
         return name;
@@ -18,7 +18,7 @@ public class item {
         return description;
     }
 
-    public Map<String, stats> getStats() {
+    public stats getStats() {
         return stats;
     }
 
@@ -27,6 +27,9 @@ public class item {
     }
 
     public item(String name, String description, String origin, stats stats) {
-
+        this.name = name;
+        this.description = description;
+        this.origin = origin;
+        this.stats = stats;
     }
 }

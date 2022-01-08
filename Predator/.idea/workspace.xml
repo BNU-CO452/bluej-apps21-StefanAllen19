@@ -5,81 +5,51 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e2554e4d-d19e-46a3-97ea-884d3dadb9e1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Group Project Work/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Group Project Work/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Group Project Work/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Group Project Work/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Group Project Work/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Group Project Work/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Group Project Work/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Group Project Work/src/main/java/ac/scythe/app/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Group Project Work/src/main/java/ac/scythe/app/Game.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Group Project Work/src/main/java/ac/scythe/struct/destination.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Group Project Work/src/main/java/ac/scythe/struct/item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Group Project Work/src/main/java/ac/scythe/struct/player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Group Project Work/src/main/java/ac/scythe/struct/stats.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Group Project Work/src/main/java/ac/scythe/util/Data.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ac/scythe/app/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ac/scythe/app/Game.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ac/scythe/struct/destination.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ac/scythe/struct/item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ac/scythe/struct/player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ac/scythe/struct/stats.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ac/scythe/util/Data.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Predator-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/ac/scythe/app/App.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/ac/scythe/app/Game.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/ac/scythe/struct/destination.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/ac/scythe/struct/item.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/ac/scythe/struct/player.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/ac/scythe/struct/stats.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/ac/scythe/util/Data.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../testing/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../testing/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../testing/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../testing/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../testing/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../testing/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../testing/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../testing/src/main/java/ac/scythe/app/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../testing/src/main/java/ac/scythe/app/Game.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../testing/src/main/java/ac/scythe/struct/destination.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../testing/src/main/java/ac/scythe/struct/item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../testing/src/main/java/ac/scythe/struct/player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../testing/src/main/java/ac/scythe/struct/stats.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../testing/src/main/java/ac/scythe/util/Data.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../testing/target/classes/ac/scythe/app/App.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../testing/target/classes/ac/scythe/app/Game.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../testing/target/classes/ac/scythe/struct/destination.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../testing/target/classes/ac/scythe/struct/item.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../testing/target/classes/ac/scythe/struct/player.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../testing/target/classes/ac/scythe/struct/stats.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../testing/target/classes/ac/scythe/util/Data.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../testing/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../testing/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../testing/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../testing/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../testing/target/testing-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Group Project Work/spam.txt" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ac/scythe/util/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ac/scythe/util/Logo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ac/scythe/util/Output.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ac/scythe/app/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ac/scythe/app/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ac/scythe/app/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ac/scythe/app/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ac/scythe/struct/destination.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ac/scythe/struct/destination.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ac/scythe/struct/item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ac/scythe/struct/item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ac/scythe/struct/player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ac/scythe/struct/player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ac/scythe/util/Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ac/scythe/util/Data.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Predator-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ac/scythe/app/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ac/scythe/app/Game.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ac/scythe/struct/destination.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ac/scythe/struct/item.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ac/scythe/struct/player.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ac/scythe/struct/stats.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ac/scythe/util/Data.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="jdkForImporter" value="1.8" />
+      </MavenImportingSettings>
+    </option>
   </component>
   <component name="ProjectId" id="23IaWLqSVQgvFhXY2ljgu0myiUC" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -95,7 +65,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -106,6 +76,8 @@
       <option name="presentableId" value="Default" />
       <updated>1641424089138</updated>
       <workItem from="1641424090570" duration="687000" />
+      <workItem from="1641425051866" duration="1363000" />
+      <workItem from="1641475958178" duration="10332000" />
     </task>
     <servers />
   </component>
@@ -122,6 +94,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
