@@ -5,29 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e2554e4d-d19e-46a3-97ea-884d3dadb9e1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ac/scythe/util/Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ac/scythe/util/Logo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ac/scythe/util/Output.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ac/scythe/app/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ac/scythe/app/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ac/scythe/app/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ac/scythe/app/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ac/scythe/struct/destination.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ac/scythe/struct/destination.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ac/scythe/struct/item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ac/scythe/struct/item.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ac/scythe/struct/player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ac/scythe/struct/player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ac/scythe/util/Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ac/scythe/util/Data.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Predator-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ac/scythe/app/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ac/scythe/app/Game.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ac/scythe/struct/destination.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ac/scythe/struct/item.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ac/scythe/struct/player.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ac/scythe/struct/stats.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ac/scythe/util/Data.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +56,7 @@
       <updated>1641424089138</updated>
       <workItem from="1641424090570" duration="687000" />
       <workItem from="1641425051866" duration="1363000" />
-      <workItem from="1641475958178" duration="10332000" />
+      <workItem from="1641475958178" duration="11212000" />
     </task>
     <servers />
   </component>

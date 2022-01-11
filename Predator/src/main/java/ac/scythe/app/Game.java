@@ -4,7 +4,6 @@ import ac.scythe.struct.destination;
 import ac.scythe.struct.item;
 import ac.scythe.struct.player;
 import ac.scythe.struct.stats;
-import ac.scythe.util.Logo;
 import ac.scythe.util.Output;
 
 import java.io.BufferedReader;
