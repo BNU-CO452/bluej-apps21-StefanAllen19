@@ -1,13 +1,13 @@
 package ac.scythe.struct;
 
 public class stats {
-    public Integer damage;
-    public Integer warmth;
-    public Integer protection;
-    public Integer light;
-    public Integer energy;
-    public Boolean requireEnergy;
-    public Boolean dealsDamage;
+    private Integer damage;
+    private Integer warmth;
+    private Integer protection;
+    private Integer light;
+    private Integer energy;
+    private Boolean requireEnergy;
+    private Boolean dealsDamage;
 
     public Integer getDamage() {
         return damage;

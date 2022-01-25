@@ -1,5 +1,8 @@
 package ac.scythe.struct;
 
+import ac.scythe.app.Game;
+import ac.scythe.util.Output;
+
 import java.util.HashMap;
 import java.util.Locale;
 import java.util.Map;
@@ -14,6 +17,7 @@ public class destination {
         this.name = name;
         this.id = id;
         this.description = description;
+        items =  new HashMap<>();
     }
 
 
@@ -27,15 +31,6 @@ public class destination {
         return id;
     }
 
-    public item getItem(String name) {
-        System.out.println(items);
-        for(Map.Entry<String, item> entry : items.entrySet())
-        {
-            if(entry.getValue().getName().toLowerCase(Locale.ROOT) == name.toLowerCase(Locale.ROOT)) return entry.getValue();
-        }
-
-        return null;
-    }
 
     public HashMap<String, item> getItems() {
         return items;
@@ -61,5 +56,13 @@ public class destination {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public void addItem(item Item) {
+        items.put(Item.getName().toLowerCase(), Item);
+    }
+
+    public void removeItem(item Item) {
+        items.remove(Item.getName().toLowerCase());
     }
 }

@@ -1,7 +1,10 @@
 package ac.scythe.struct;
 
+import ac.scythe.app.Game;
+
 import java.util.Locale;
 import java.util.Map;
+import java.util.concurrent.ConcurrentHashMap;
 
 import static ac.scythe.util.Data.destinations;
 
@@ -13,7 +16,7 @@ public class player {
     private Integer protection;
     private Integer score;
     private Integer warmth;
-    private Map<String, item> inventory;
+    public ConcurrentHashMap<String, item> inventory;
 
 
 
@@ -75,16 +78,10 @@ public class player {
         this.warmth = warmth;
     }
 
-    public void addItem(String Item) {
-        destination place = destinations.get(destination);
-        item  placeItem = place.getItem(Item);
-
-        inventory.put(placeItem.getName().toLowerCase(Locale.ROOT), placeItem);
-    }
-
     public void removeItem(String Item) {
         inventory.remove(Item.toLowerCase(Locale.ROOT));
     }
+    public void addItem(item Item) { inventory.put(Item.getName().toLowerCase(), Item);}
 
     public player(String name) {
         this.name = name;
@@ -94,5 +91,6 @@ public class player {
         this.protection = 1;
         this.score = 0;
         this.warmth = 0;
+        inventory = new ConcurrentHashMap<>();
     }
 }

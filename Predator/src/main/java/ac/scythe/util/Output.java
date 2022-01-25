@@ -1,8 +1,5 @@
 package ac.scythe.util;
 
-import java.io.IOException;
-import java.lang.reflect.Array;
-
 public class Output {
     public static void clearWrite(String output) {
         for (int i = 0; i < 100; ++i) System.out.println();
