@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Course
+comment0.text=\r\n\ This\ class\ contains\ information\ about\ an\ undergraduate\ course\r\n\ at\ BNU\ together\ with\ a\ list\ of\ student\ who\ are\ enrolled\r\n\r\n\ @author\ Derek\ Peacock\r\n\ @version\ 1.0\ 14/07/2021\r\n
+comment1.params=code\ title
+comment1.target=Course(java.lang.String,\ java.lang.String)
+comment1.text=\r\n\ Create\ a\ Course\ with\ a\ maximum\ number\ of\ enrolments.\ \r\n\ All\ other\ details\ are\ set\ to\ unkown\ values.\r\n
+comment2.params=
+comment2.target=void\ print()
+comment2.text=\r\n\ Print\ the\ details\ of\ the\ course,\ the\ list\r\n\ of\ students\ enrolled\ and\ the\ module\r\n
+comment3.params=
+comment3.target=void\ printHeading()
+comment3.text=\r\n\ Print\ out\ the\ details\ of\ the\ course\ to\ the\ terminal.\r\n
+numComments=4

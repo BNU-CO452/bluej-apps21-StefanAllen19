@@ -3,8 +3,8 @@
  * a student at BNU.  The class also contains information 
  * concerning the course the student is currently enrolled on
  * 
- * @author Michael Kölling and David Barnes
- * @modified by Derek Peacock and Nicholas Day
+ * @author (Stefan)
+ * @version (5/10/2021)
  * @version 2021:08:15
  */
 public class Student

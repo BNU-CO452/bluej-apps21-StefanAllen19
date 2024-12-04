@@ -8,8 +8,8 @@
  *                 |
  *          [Computer Lab]<---->[Office]
  *             
- * @author Derek Peacock and Nicholas Day
- * @version 2021-08-22
+ * @author  Stefan Allen, " Mohammed Loqman " And " Ben's full name "
+ * @version 14/12/2021
  */
 public class Map
 {
@@ -35,13 +35,28 @@ public class Map
      */
     private void createLocations()
     {
-        createOutside();
-        createTheatre();
-        createPub();
-        createOffice();
-        createLab();
+        //createStart();
+        //createMainHall();
+        //createMainKeyRoom();
+        //createPreditorHallway();
+        //createPreditorsBasement();
+        //createMainHallway1();
+        //createMainHallway2();
+        //createMainHallway3();
+        //createMainHallway4();
+        //createMainHallway5();
+        //createMainHallway6();
+        //createMainHallway7();
+        //createLookedDoor();
+        //createLootRoom();
+        //createVaultDoor();
+        //createExit();
+        //createKeyCardRoom();
+        //createBossRoom();
+        //createSecretLootRoomDoor();
+        //createSecretLootRoom();
 
-        currentLocation = outside;  // start game outside
+       //currentLocation = Start;  // start game outside
     }
     
     /**
@@ -51,7 +66,6 @@ public class Map
     private void createOutside()
     {
         outside = new Location("outside the main entrance of the university");
-        
     }
     
     /**

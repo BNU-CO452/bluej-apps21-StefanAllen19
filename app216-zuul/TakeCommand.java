@@ -5,8 +5,8 @@
  * and carry it around to use somewhere
  * else
  *
- * @author Derek Peacock & Nicholas Day
- * @version 2021-08-23
+ * @author  Stefan Allen, " Mohammed Loqman " And " Ben's full name "
+ * @version 14/12/2021
  */
 public class TakeCommand extends ZuulCommand
 {
@@ -27,7 +27,7 @@ public class TakeCommand extends ZuulCommand
         if(item == null) 
         {
             // if there is no second word, we don't know what to take...
-            System.out.println("Take what?");
+            System.out.println("Take flamethrower");
             return;
         }
 

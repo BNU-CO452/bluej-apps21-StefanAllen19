@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Module
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Module\ here.\r\n\r\n\ @author\ (Stefan)\r\n\ @version\ (5/10/2021)\r\n
+comment1.params=code\ title
+comment1.target=Module(java.lang.String,\ java.lang.String)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Module\r\n
+comment2.params=
+comment2.target=int\ getCredit()
+comment2.text=\r\n\ An\ example\ of\ a\ method\ -\ replace\ this\ comment\ with\ your\ own\r\n\r\n\ @param\ \ y\ \ a\ sample\ parameter\ for\ a\ method\r\n\ @return\ \ \ \ the\ sum\ of\ x\ and\ y\r\n
+comment3.params=
+comment3.target=java.lang.String\ getCode()
+comment4.params=
+comment4.target=java.lang.String\ getitle()
+comment5.params=credit
+comment5.target=void\ setCredit(int)
+comment6.params=
+comment6.target=void\ print()
+comment6.text=\r\n\ Print\ the\ details\ of\ the\ course,\ the\ list\r\n\ of\ students\ enrolled\ and\ the\ module\r\n
+numComments=7

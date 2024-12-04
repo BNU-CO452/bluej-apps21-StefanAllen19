@@ -12,9 +12,8 @@ import java.util.Iterator;
  * connected to other locations via exits.  For each existing exit, the 
  * location stores a reference to the neighboring locations.
  * 
- * @author  Michael Kölling and David J. Barnes
- * Modified by Derek Peacock & Nicholas Day
- * @version 2016.02.29
+ * @author  Stefan Allen, " Mohammed Loqman " And " Ben's full name "
+ * @version 14/12/2021
  */
 
 public class Location 

@@ -1,0 +1,24 @@
+Product GraphicCardsRtx3060Series = new Product(101, "RTX 3060");
+GraphicCardsRtx3060Series.print();
+ ID 101: RTX 3060 stock level: 0
+GraphicCardsRtx3060Series.decreaseQuantity(1);
+GraphicCardsRtx3060Series.print();
+ ID 101: RTX 3060 stock level: 0
+GraphicCardsRtx3060Series.increaseQuantity(4);
+GraphicCardsRtx3060Series.print();
+ ID 101: RTX 3060 stock level: 4
+GraphicCardsRtx3060Series.decreaseQuantity(2);
+GraphicCardsRtx3060Series.print();
+ ID 101: RTX 3060 stock level: 2
+StockList GraphicsCards = new StockList();
+Product GraphicCardsRtx3070Series = new Product(102, "RTX 3070");
+GraphicsCards.add(GraphicCardsRtx3060Series);
+GraphicsCards.add(GraphicCardsRtx3070Series);
+GraphicsCards.print();
+
+ Stefan Allen's Stock List
+ ====================
+
+ ID 101: RTX 3060 stock level: 2
+ ID 102: RTX 3070 stock level: 0
+

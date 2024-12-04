@@ -1,0 +1,9 @@
+Course softEng = new Course();
+Student stefan = new Student();
+Course softEng = new Course();
+softEng.createStudent();
+softEng.printStudents();
+ Student ID: 22135474, Stefan
+ Student ID: 22345667, AK
+ Student ID: 22449595, Mo
+ Student ID: 22348574, Arbaaz

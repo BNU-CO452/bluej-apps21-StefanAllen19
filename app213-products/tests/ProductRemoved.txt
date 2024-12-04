@@ -1,0 +1,37 @@
+StockList stockLis1 = new StockList();
+StockDemo stockDem1 = new StockDemo(stockLis1);
+stockLis1.print();
+
+ Stefan Allen's Stock List
+ ====================
+
+ ID 101: RTX 3060 stock level: 0
+ ID 102: RTX 3060 TI stock level: 0
+ ID 103: RTX 3070 stock level: 0
+ ID 104: RTX 3070 TI stock level: 0
+ ID 105: RTX 3080 stock level: 0
+ ID 106: RTX 3080 TI stock level: 0
+ ID 107: RTX 3090 stock level: 0
+ ID 108: RTX 3090 TI stock level: 0
+ ID 109: RTX 6000 stock level: 0
+ ID 110: RTX 8000 stock level: 0
+
+stockLis1.remove(101);
+Product Removed RTX 3060
+stockLis1.print();
+
+ Stefan Allen's Stock List
+ ====================
+
+ ID 102: RTX 3060 TI stock level: 0
+ ID 103: RTX 3070 stock level: 0
+ ID 104: RTX 3070 TI stock level: 0
+ ID 105: RTX 3080 stock level: 0
+ ID 106: RTX 3080 TI stock level: 0
+ ID 107: RTX 3090 stock level: 0
+ ID 108: RTX 3090 TI stock level: 0
+ ID 109: RTX 6000 stock level: 0
+ ID 110: RTX 8000 stock level: 0
+
+stockLis1.remove(111);
+ID doesn't exist 

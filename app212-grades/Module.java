@@ -3,14 +3,13 @@
  * credits that students achieve when they
  * pass the module with a mark of 40+
  *
- * @author Derek Peacock and Nicholas Day
- * @version 1.0 17/07/2021
+ * @author Stefan Allen
+ * @version 19/10/2021
  */
 public class Module
 {
     // Most modules are worth 15 credits
     public static final int CREDIT = 15;
-    
     private String code;
     private String title;
 
@@ -24,12 +23,10 @@ public class Module
         this.title = title;
     }
 
-   
     public String getCode()
     {
         return code;
     }
-    
     
     public String getTitle()
     {
@@ -44,7 +41,7 @@ public class Module
     public void print()
     {
         System.out.println();
-        System.out.print(" " + code + ": " + "\t" + title);
+        System.out.print(" " + code + ": " + title);
     }
     
     /**

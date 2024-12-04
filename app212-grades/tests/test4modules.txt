@@ -1,0 +1,6 @@
+softEng.printModules();
+
+ Co452: 	programming Conceptes	  15 credits
+ Co450: 	Computer Architecture	  15 credits
+ Co456: 	Web Development		  15 credits
+ Co454: 	Digi Tech		  15 credits

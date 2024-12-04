@@ -10,10 +10,10 @@
  *  This main class creates and initialises all the others: it creates all
  *  locations, creates the CommandReader and starts the game.  
  * 
- * @author  Michael Kölling and David J. Barnes
- * @version 2016.02.29
+ * @author  Stefan Allen, " Mohammed Loqman" And " Ben's full name "
+ * @version 14/12/2021
  * 
- * Modified and extended by Student Name
+ * Modified and extended by Stefan, Mo and Ben
  */
 
 public class Game 
@@ -47,7 +47,7 @@ public class Game
             gameOver = reader.getCommand();
         }
         
-        System.out.println("Thank you for playing.  Good bye.");
+        System.out.println("Thank you for playing!");
     }
 
     /**
@@ -56,8 +56,9 @@ public class Game
     private void printWelcome()
     {
         System.out.println();
-        System.out.println(" Welcome to the World of Zuul!");
-        System.out.println(" World of Zuul is a new, incredibly boring adventure game.");
+        System.out.println(" Welcome to the Preditor!");
+        System.out.println(" Your goal is to reach the exit before the monster catches you!");
+        System.out.println(" Good luck, Your going to need it...");
         System.out.println(" Type 'help' if you need help.");
         System.out.println();
         System.out.println(MAP.getCurrentLocation().getLongDescription());

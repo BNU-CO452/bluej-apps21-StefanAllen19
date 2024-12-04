@@ -1,0 +1,993 @@
+* {
+  overflow-x: hidden;
+}
+
+/*Button for platforms*/
+.btn {
+    border: 1px solid rgb(255, 255, 255);
+    color: white;
+    padding: 10px 24px;
+    text-decoration: none;
+    cursor: pointer;
+    float: left;
+    width: 33.3%;
+    margin-top: 1%;
+    text-align: center;
+    font-family: sans-serif;
+  }
+  
+  .btn:after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  /*Button for platforms*/
+  
+  #rig {
+    max-width: 900px;
+    margin: 0 auto; /*center aligned*/
+    padding: 0;
+    font-size: 0;
+    list-style: none;
+    background-color: rgb(240, 240, 240);
+    margin-top: 1%;
+  }
+  #rig li {
+    display: inline-block;
+    *display: inline; /*for IE6 - IE7*/
+    width: 25%;
+    vertical-align: middle;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* The wrapper for each item */
+  .rig-cell {
+    display: block;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  /* image layer */
+  .rig-img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border: none;
+    transform: scale(1);
+    transition: all 1s;
+    margin-top: 3%;
+  }
+  
+  #rig li:hover .rig-img {
+    transform: scale(1.05);
+  }
+  
+  /* overlay layer */
+  .rig-overlay {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    background: #00000028 url(img/link.png) no-repeat center 20%;
+    background-size: 50px 50px;
+    opacity: 0;
+    filter: alpha(opacity=0); /*For IE6 - IE8*/
+    transition: all 0.6s;
+  }
+  #rig li:hover .rig-overlay {
+    opacity: 0.8;
+  }
+  
+  /* captions */
+  .rig-text {
+    display: block;
+    padding: 0 30px;
+    box-sizing: border-box;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "Oswald", sans-serif;
+    font-weight: normal !important;
+    top: 40%;
+    color: rgb(255, 255, 255);
+    background: rgba(0, 0, 0, 0.712);
+    opacity: 0;
+    filter: alpha(opacity=0); /*For older IE*/
+    transform: translateY(-20px);
+    transition: all 0.3s;
+  }
+  
+  /*Different width for mobile*/
+  
+  #rig li:hover .rig-text {
+    transform: translateY(0px);
+    opacity: 0.9;
+  }
+  
+  /*Footer at bottom of page*/
+  footer {
+    position: absolute;
+    bottom: 1;
+    left: 0;
+    right: 0;
+    background-color: rgb(48, 48, 48);
+    width: 100vw;
+    padding-top: 15px;
+    color: rgb(255, 255, 255);
+    height: 15%;
+    overflow-y: hidden;
+    margin-top: 3%;
+    font-family: sans-serif;
+  }
+  
+  /*Footer content*/
+  .footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  .footer-content h3 {
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+  }
+  .footer-content p {
+    max-width: 500px;
+    margin: 5px auto;
+    line-height: 28px;
+    font-size: 14px;
+  }
+  
+  * {
+    font-family: sans-serif;
+  }
+  
+  #rig {
+    max-width: 900px;
+    margin: 0 auto; /*center aligned*/
+    padding: 0;
+    font-size: 0;
+    list-style: none;
+    background-color: rgb(255, 255, 255);
+    margin-top: 1%;
+  }
+  #rig li {
+    display: inline-block;
+    *display: inline; /*for IE6 - IE7*/
+    width: 25%;
+    vertical-align: middle;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* The wrapper for each item */
+  .rig-cell {
+    display: block;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  /*image layer */
+  .rig-img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border: none;
+    transform: scale(1);
+    transition: all 1s;
+    margin-top: 3%;
+  }
+  
+  #rig li:hover .rig-img {
+    transform: scale(1.05);
+  }
+  
+  /* overlay layer */
+  .rig-overlay {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    background: #00000028 url(img/link.png) no-repeat center 20%;
+    background-size: 50px 50px;
+    opacity: 0;
+    filter: alpha(opacity=0); /*For IE6 - IE8*/
+    transition: all 0.6s;
+  }
+  #rig li:hover .rig-overlay {
+    opacity: 0.8;
+  }
+  
+  /* If have captions */
+  .rig-text {
+    display: block;
+    padding: 0 30px;
+    box-sizing: border-box;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "Oswald", sans-serif;
+    font-weight: normal !important;
+    top: 40%;
+    color: white;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    transform: translateY(-20px);
+    transition: all 0.3s;
+  }
+  #rig li:hover .rig-text {
+    transform: translateY(0px);
+    opacity: 0.9;
+  }
+  
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+  /*NavBar*/
+  header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 15px 10%;
+    background-color: rgb(48, 48, 48);
+    top: 0;
+  }
+  /*Logo*/
+  .logo {
+    margin-right: auto;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  /*Heading links*/
+  
+  .nav__links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav__links a,
+  .cta,
+  .overlay__content a {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  .nav__links li {
+    padding: 0px 20px;
+  }
+  
+  .nav__links li a {
+    transition: all 0.3s ease 0s;
+  }
+  
+  .nav__links li a:hover {
+    color: #cccccc;
+    transition: all 0.5s ease 0s;
+  }
+  
+  .cta {
+    margin-left: 20px;
+    padding: 9px 25px;
+    background-color: rgba(134, 75, 75, 0);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+  }
+  
+  .cta:hover {
+    background: rgba(255, 255, 255, 0.2);
+    color: rgb(255, 255, 255);
+    transition: all 0.5s ease 0s;
+  }
+  
+  .Line1 {
+    height: 10000px;
+    color: transparent;
+  }
+  
+  /* Mobile Nav */
+  
+  .menu {
+    display: none;
+  }
+  
+  .overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    background-color: rgb(48, 48, 48);
+    overflow-x: hidden;
+    transition: all 0.5s ease 0s;
+  }
+  
+  .overlay--active {
+    width: 100%;
+  }
+  
+  .overlay__content {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .overlay a {
+    padding: 15px;
+    font-size: 36px;
+    display: block;
+    transition: all 0.3s ease 0s;
+  }
+  
+  .overlay a:hover,
+  .overlay a:focus {
+    color: rgb(175, 175, 175);
+  }
+  .overlay .close {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+    color: #edf0f1;
+    cursor: pointer;
+  }
+  
+  .LUHeader {
+    background: black;
+    color: transparent;
+    height: 1px;
+  }
+  
+  * {
+    font-family: sans-serif;
+  }
+  
+  #rig {
+    max-width: 900px;
+    margin: 0 auto; /*center aligned*/
+    padding: 0;
+    font-size: 0;
+    list-style: none;
+    background-color: rgb(240, 240, 240);
+    margin-top: 1%;
+  }
+  #rig li {
+    display: inline-block;
+    *display: inline;
+    width: 25%;
+    vertical-align: middle;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* The wrapper for each item */
+  .rig-cell {
+    display: block;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  /*image layer */
+  .rig-img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border: none;
+    transform: scale(1);
+    transition: all 1s;
+    margin-top: 3%;
+  }
+  
+  #rig li:hover .rig-img {
+    transform: scale(1.05);
+  }
+  
+  /* overlay layer */
+  .rig-overlay {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    background: #00000028 url(img/link.png) no-repeat center 20%;
+    background-size: 50px 50px;
+    opacity: 0;
+    filter: alpha(opacity=0); /*For IE6 - IE8*/
+    transition: all 0.6s;
+  }
+  #rig li:hover .rig-overlay {
+    opacity: 0.8;
+  }
+  
+  /* If have captions */
+  .rig-text {
+    display: block;
+    padding: 0 30px;
+    box-sizing: border-box;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "Oswald", sans-serif;
+    font-weight: normal !important;
+    top: 40%;
+    color: rgb(255, 255, 255);
+    background: rgba(0, 0, 0, 0.712);
+    opacity: 0;
+    filter: alpha(opacity=0);
+    transform: translateY(-20px);
+    transition: all 0.3s;
+  }
+  
+  #rig li:hover .rig-text {
+    transform: translateY(0px);
+    opacity: 0.9;
+  }
+  
+  * {
+    font-family: sans-serif;
+  }
+  
+  #rig {
+    max-width: 900px;
+    margin: 0 auto; /*center aligned*/
+    padding: 0;
+    font-size: 0;
+    list-style: none;
+    background-color: rgb(255, 255, 255);
+    margin-top: 1%;
+  }
+  #rig li {
+    display: inline-block;
+    *display: inline;
+    width: 25%;
+    vertical-align: middle;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* The wrapper for each item */
+  .rig-cell {
+    display: block;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  /*image layer */
+  .rig-img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border: none;
+    transform: scale(1);
+    transition: all 1s;
+    margin-top: 3%;
+  }
+  
+  #rig li:hover .rig-img {
+    transform: scale(1.05);
+  }
+  
+  /* If have the overlay layer */
+  .rig-overlay {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    background: #00000028 url(img/link.png) no-repeat center 20%;
+    background-size: 50px 50px;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    transition: all 0.6s;
+  }
+  #rig li:hover .rig-overlay {
+    opacity: 0.8;
+  }
+  
+  /* If have captions */
+  .rig-text {
+    display: block;
+    padding: 0 30px;
+    box-sizing: border-box;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "Oswald", sans-serif;
+    font-weight: normal !important;
+    top: 40%;
+    color: rgb(255, 255, 255);
+    background: rgba(0, 0, 0, 0.712);
+    opacity: 0;
+    filter: alpha(opacity=0);
+    transform: translateY(-20px);
+    transition: all 0.3s;
+  }
+  
+  #rig li:hover .rig-text {
+    transform: translateY(0px);
+    opacity: 0.9;
+  }
+  
+  * {
+    font-family: sans-serif;
+  }
+  
+  #rig {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0;
+    font-size: 0;
+    list-style: none;
+    background-color: rgb(240, 240, 240);
+    margin-top: 1%;
+  }
+  #rig li {
+    display: inline-block;
+    *display: inline;
+    width: 25%;
+    vertical-align: middle;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* The wrapper for each item */
+  .rig-cell {
+    display: block;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  /*image layer */
+  .rig-img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border: none;
+    transform: scale(1);
+    transition: all 1s;
+    margin-top: 3%;
+  }
+  
+  #rig li:hover .rig-img {
+    transform: scale(1.05);
+  }
+  
+  /* overlay layer */
+  .rig-overlay {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    background: #00000028 url(img/link.png) no-repeat center 20%;
+    background-size: 50px 50px;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    transition: all 0.6s;
+  }
+  #rig li:hover .rig-overlay {
+    opacity: 0.8;
+  }
+  
+  /* captions */
+  .rig-text {
+    display: block;
+    padding: 0 30px;
+    box-sizing: border-box;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "Oswald", sans-serif;
+    font-weight: normal !important;
+    top: 40%;
+    color: rgb(255, 255, 255);
+    background: rgba(0, 0, 0, 0.712);
+    opacity: 0;
+    filter: alpha(opacity=0);
+    transform: translateY(-20px);
+    transition: all 0.3s;
+  }
+  
+  /* Slideshow container */
+  .slideshow-container {
+    max-width: 100%;
+    position: relative;
+    margin: 0% 0%;
+    font-family: sans-serif;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 10px;
+    width: 10px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active,
+  .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  #rig {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0;
+    font-size: 0;
+    list-style: none;
+    background-color: rgb(240, 240, 240);
+    margin-top: 1%;
+  }
+  #rig li {
+    display: inline-block;
+    *display: inline;
+    width: 25%;
+    vertical-align: middle;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* The wrapper for each item */
+  .rig-cell {
+    display: block;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  /*image layer */
+  .rig-img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border: none;
+    transform: scale(1);
+    transition: all 1s;
+    margin-top: 3%;
+  }
+  
+  #rig li:hover .rig-img {
+    transform: scale(1.05);
+  }
+  
+  /* overlay layer */
+  .rig-overlay {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    background: #00000028 url(img/link.png) no-repeat center 20%;
+    background-size: 50px 50px;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    transition: all 0.6s;
+  }
+  #rig li:hover .rig-overlay {
+    opacity: 0.8;
+  }
+  
+  /* captions */
+  .rig-text {
+    display: block;
+    padding: 0 30px;
+    box-sizing: border-box;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "Oswald", sans-serif;
+    font-weight: normal !important;
+    top: 40%;
+    color: rgb(255, 255, 255);
+    background: rgba(0, 0, 0, 0.712);
+    opacity: 0;
+    filter: alpha(opacity=0); /*For older IE*/
+    transform: translateY(-20px);
+    transition: all 0.3s;
+  }
+  
+  #rig li:hover .rig-text {
+    transform: translateY(0px);
+    opacity: 0.9;
+  }
+  
+  /* Map for help page*/
+  .Help-Main {
+      text-align: center;
+      margin-top: 2.5%;
+      font-size: 1.5rem;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .Map {
+      margin-top: 1.5%;
+  }
+  /*Mobile*/
+  
+  @media (max-width: 9000px) {
+    #rig li {
+      width: 25%;
+    }
+  }
+  
+  @media (max-width: 700px) {
+    #rig li {
+      width: 33.33%;
+    }
+  }
+  
+  @media (max-width: 550px) {
+    #rig li {
+      width: 50%;
+    }
+  }
+  @-webkit-keyframes fade {
+    from {
+      opacity: 0.4;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes fade {
+    from {
+      opacity: 0.4;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  /* On smaller screens, decrease text size */
+  @media only screen and (max-width: 300px) {
+    .prev,
+    .next,
+    .text {
+      font-size: 11px;
+    }
+  }
+  
+  #rig li:hover .rig-text {
+    transform: translateY(0px);
+    opacity: 0.9;
+  }
+  /*Mobile view */
+  
+  @media (max-width: 9000px) {
+    #rig li {
+      width: 25%;
+    }
+  }
+  
+  @media (max-width: 700px) {
+    #rig li {
+      width: 33.33%;
+    }
+  }
+  
+  @media (max-width: 550px) {
+    #rig li {
+      width: 50%;
+    }
+  }
+  
+  /*Moibile View*/
+  
+  @media (max-width: 9000px) {
+    #rig li {
+      width: 25%;
+    }
+  }
+  
+  @media (max-width: 700px) {
+    #rig li {
+      width: 33.33%;
+    }
+  }
+  
+  @media (max-width: 550px) {
+    #rig li {
+      width: 50%;
+    }
+  }
+  
+  /*Mobile view*/
+  
+  @media (max-width: 9000px) {
+    #rig li {
+      width: 25%;
+    }
+  }
+  
+  @media (max-width: 700px) {
+    #rig li {
+      width: 33.33%;
+    }
+  }
+  
+  @media (max-width: 550px) {
+    #rig li {
+      width: 50%;
+    }
+  }
+  
+  @media screen and (max-height: 450px) {
+    .overlay a {
+      font-size: 20px;
+    }
+    .overlay .close {
+      font-size: 40px;
+      top: 15px;
+      right: 35px;
+    }
+  }
+  
+  @media only screen and (max-width: 800px) {
+    .nav__links,
+    .cta {
+      display: none;
+    }
+    .menu {
+      display: initial;
+    }
+  }
+  
+  /*For mobile view*/
+  
+  @media (max-width: 9000px) {
+    #rig li {
+      width: 25%;
+    }
+  }
+  
+  @media (max-width: 700px) {
+    #rig li {
+      width: 33.33%;
+    }
+  }
+  
+  @media (max-width: 550px) {
+    #rig li {
+      width: 50%;
+    }
+  }
+  
+  @media (max-width: 9000px) {
+    #rig li {
+      width: 25%;
+    }
+  }
+  
+  @media (max-width: 700px) {
+    #rig li {
+      width: 33.33%;
+    }
+  }
+  
+  @media (max-width: 550px) {
+    #rig li {
+      width: 50%;
+    }
+  }
+  

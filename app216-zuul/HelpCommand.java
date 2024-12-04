@@ -2,8 +2,8 @@ import java.util.ArrayList;
 /**
  * Write a description of class HelpCommand here.
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author  Stefan Allen, " Mohammed Loqman " And " Ben's full name "
+ * @version 14/12/2021
  */
 public class HelpCommand extends ZuulCommand
 {
@@ -19,8 +19,9 @@ public class HelpCommand extends ZuulCommand
      */
     public void execute()
     {
-        System.out.println(" You are lost. You are alone. You wander");
-        System.out.println(" around at the university.");        
+        System.out.println(" The goal of the game is reach the" +
+                             "exit before the preditor catches you");
+        System.out.println(" around at the Spaceship.");        
         System.out.println();
         System.out.println(" Your command words are:");
         System.out.println();

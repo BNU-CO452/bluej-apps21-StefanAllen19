@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=HelpCommand
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ HelpCommand\ here.\r\n\r\n\ @author\ \ Stefan\ Allen,\ "\ Mohammed\ Loqman\ "\ And\ "\ Ben's\ full\ name\ "\r\n\ @version\ 14/12/2021\r\n
+comment1.params=zuul
+comment1.target=HelpCommand(Game)
+comment2.params=
+comment2.target=void\ execute()
+comment2.text=\r\n\ Print\ out\ some\ help\ information.\r\n\ Here\ we\ print\ some\ stupid,\ cryptic\ message\ and\r\n\ a\ list\ of\ the\ command\ words.\r\n
+numComments=3

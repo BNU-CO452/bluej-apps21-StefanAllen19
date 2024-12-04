@@ -4,8 +4,8 @@
  * one location to another location provided the
  * two locations are linked by a valid exit
  *
- * @author Derek Peacock & Nicholas Day
- * @version 2021-08-23
+ * @author  Stefan Allen, " Mohammed Loqman " And " Ben's full name "
+ * @version 14/12/2021
  */
 public class GoCommand extends ZuulCommand
 {
